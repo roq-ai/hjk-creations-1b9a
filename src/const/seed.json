@@ -1,0 +1,2642 @@
+[
+  {
+    "update": [
+      {
+        "id": "a48ee461-e535-4e14-a534-dd3da8f24c61",
+        "created_at": "2023-09-20T10:01:56.887Z",
+        "updated_at": "2023-09-20T15:05:11.530Z"
+      },
+      {
+        "id": "aec9a19a-e87e-4d05-b121-c03a0d945a7f",
+        "created_at": "2023-09-20T08:28:11.610Z",
+        "updated_at": "2023-09-20T10:56:23.514Z"
+      },
+      {
+        "id": "69c20eae-c867-4d78-80db-b03790f88cda",
+        "created_at": "2023-09-20T15:36:47.205Z",
+        "updated_at": "2023-09-20T02:11:34.350Z"
+      },
+      {
+        "id": "bad63d77-c734-4434-b71d-cc446f46748a",
+        "created_at": "2023-09-20T06:22:28.442Z",
+        "updated_at": "2023-09-20T16:53:37.898Z"
+      },
+      {
+        "id": "58304f3b-71fb-42b4-9eac-460cf730183e",
+        "created_at": "2023-09-20T16:16:37.765Z",
+        "updated_at": "2023-09-20T17:05:56.469Z"
+      }
+    ],
+    "client": [
+      {
+        "id": "bf945fe8-44cb-45b2-82a5-b5cce82c4f85",
+        "name": "ABC Corporation",
+        "address": "123 Main Street",
+        "contact_number": "123-456-7890",
+        "contact_person": "John Doe",
+        "created_at": "2023-09-20T01:50:54.701Z",
+        "updated_at": "2023-09-20T15:54:50.004Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "b7133e7b-ce55-4585-a6e1-49c1ff3c86dc",
+        "name": "XYZ Corporation",
+        "address": "456 Elm Avenue",
+        "contact_number": "987-654-3210",
+        "contact_person": "Jane Smith",
+        "created_at": "2023-09-20T09:44:46.073Z",
+        "updated_at": "2023-09-19T20:45:58.054Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "9f27564a-fc62-4543-b724-57a433130571",
+        "name": "123 Company",
+        "address": "789 Oak Drive",
+        "contact_number": "555-123-4567",
+        "contact_person": "Michael Brown",
+        "created_at": "2023-09-20T05:09:57.490Z",
+        "updated_at": "2023-09-20T08:18:10.779Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "2a4f0707-1192-474e-9faa-24c4738d15e0",
+        "name": "Acme Inc.",
+        "address": "10 Pine Lane",
+        "contact_number": "999-888-7777",
+        "contact_person": "Sarah Jones",
+        "created_at": "2023-09-19T19:14:46.172Z",
+        "updated_at": "2023-09-19T21:04:55.680Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "f5fcfce3-bd3a-480b-b07a-24d62fc90bad",
+        "name": "Global Enterprises",
+        "address": "555 Maple Road",
+        "contact_number": "111-222-3333",
+        "contact_person": "David Wilson",
+        "created_at": "2023-09-19T21:19:31.384Z",
+        "updated_at": "2023-09-20T00:36:01.083Z",
+        "agency_id": "main_entity_pk"
+      }
+    ],
+    "campaign": [
+      {
+        "id": "90893f1f-5418-444f-9008-15a540e7af9e",
+        "name": "Summer Sale",
+        "start_date": "2023-09-20T12:44:50.375Z",
+        "end_date": "2023-09-19T20:15:27.576Z",
+        "budget": 37669,
+        "created_at": "2023-09-19T21:06:54.972Z",
+        "updated_at": "2023-09-20T13:48:39.575Z",
+        "client_id": "9f27564a-fc62-4543-b724-57a433130571"
+      },
+      {
+        "id": "2d834218-66f9-42e0-818d-f7e0c0a7f230",
+        "name": "Holiday Promotion",
+        "start_date": "2023-09-20T09:56:25.288Z",
+        "end_date": "2023-09-20T09:05:34.121Z",
+        "budget": 27328,
+        "created_at": "2023-09-20T14:49:08.464Z",
+        "updated_at": "2023-09-20T12:39:04.665Z",
+        "client_id": "2a4f0707-1192-474e-9faa-24c4738d15e0"
+      },
+      {
+        "id": "64fb4ee6-5599-4393-b9ef-f8c3e245b7a3",
+        "name": "Back-to-School Campaign",
+        "start_date": "2023-09-19T18:47:10.728Z",
+        "end_date": "2023-09-20T14:54:36.394Z",
+        "budget": 69073,
+        "created_at": "2023-09-20T03:05:27.240Z",
+        "updated_at": "2023-09-19T17:34:07.587Z",
+        "client_id": "b7133e7b-ce55-4585-a6e1-49c1ff3c86dc"
+      },
+      {
+        "id": "70cf7315-3d4e-4c5c-8791-f3e88ade1b68",
+        "name": "Product Launch",
+        "start_date": "2023-09-20T02:59:45.827Z",
+        "end_date": "2023-09-20T01:36:17.348Z",
+        "budget": 69717,
+        "created_at": "2023-09-19T18:54:07.557Z",
+        "updated_at": "2023-09-20T08:14:33.642Z",
+        "client_id": "2a4f0707-1192-474e-9faa-24c4738d15e0"
+      },
+      {
+        "id": "93eac72b-52a4-4da7-bb70-4927601ba4fb",
+        "name": "Social Media Contest",
+        "start_date": "2023-09-20T17:05:44.181Z",
+        "end_date": "2023-09-19T17:28:35.597Z",
+        "budget": 64714,
+        "created_at": "2023-09-20T05:03:30.636Z",
+        "updated_at": "2023-09-20T10:38:17.103Z",
+        "client_id": "f5fcfce3-bd3a-480b-b07a-24d62fc90bad"
+      }
+    ],
+    "report": [
+      {
+        "id": "c1a5b5fd-33a3-46dc-9170-363328c35abb",
+        "title": "Sales Report",
+        "content": "The sales report shows an increase in revenue compared to last month.",
+        "created_at": "2023-09-20T06:02:03.061Z",
+        "updated_at": "2023-09-20T16:35:26.517Z",
+        "campaign_id": "90893f1f-5418-444f-9008-15a540e7af9e"
+      },
+      {
+        "id": "f4b7d41a-41b6-467c-8ae0-0013b9d1907c",
+        "title": "Marketing Analysis",
+        "content": "The marketing analysis highlights the effectiveness of our advertising campaigns.",
+        "created_at": "2023-09-19T19:06:19.827Z",
+        "updated_at": "2023-09-20T08:38:19.562Z",
+        "campaign_id": "2d834218-66f9-42e0-818d-f7e0c0a7f230"
+      },
+      {
+        "id": "e628b02f-4309-4105-b09f-cdd0f7249f73",
+        "title": "Campaign Performance",
+        "content": "The campaign performance report indicates a high click-through rate.",
+        "created_at": "2023-09-19T20:12:18.190Z",
+        "updated_at": "2023-09-19T23:44:44.721Z",
+        "campaign_id": "93eac72b-52a4-4da7-bb70-4927601ba4fb"
+      },
+      {
+        "id": "94c10029-a363-4c5b-bb4a-425557e142e7",
+        "title": "Customer Feedback",
+        "content": "Customer feedback suggests a need for improved customer service.",
+        "created_at": "2023-09-19T21:36:57.218Z",
+        "updated_at": "2023-09-20T14:37:21.659Z",
+        "campaign_id": "64fb4ee6-5599-4393-b9ef-f8c3e245b7a3"
+      },
+      {
+        "id": "a5f9729b-2abd-4b54-98c3-685988c04b28",
+        "title": "Website Traffic",
+        "content": "Website traffic has significantly increased due to recent SEO efforts.",
+        "created_at": "2023-09-20T12:01:58.550Z",
+        "updated_at": "2023-09-20T16:05:45.731Z",
+        "campaign_id": "70cf7315-3d4e-4c5c-8791-f3e88ade1b68"
+      }
+    ],
+    "data": [
+      {
+        "id": "2ab67d74-ffac-4f81-824e-a512835b6fc9",
+        "name": "Data 1",
+        "value": "Value 1",
+        "created_at": "2023-09-19T19:48:54.158Z",
+        "updated_at": "2023-09-19T19:50:32.489Z",
+        "report_id": "a5f9729b-2abd-4b54-98c3-685988c04b28"
+      },
+      {
+        "id": "c28bda91-cf87-43e2-89cf-b63c3773fc98",
+        "name": "Data 2",
+        "value": "Value 2",
+        "created_at": "2023-09-19T23:48:30.818Z",
+        "updated_at": "2023-09-19T22:42:09.847Z",
+        "report_id": "f4b7d41a-41b6-467c-8ae0-0013b9d1907c"
+      },
+      {
+        "id": "b8a016bf-18a2-4ba5-8247-9e2b9e8f8683",
+        "name": "Data 3",
+        "value": "Value 3",
+        "created_at": "2023-09-20T05:52:59.119Z",
+        "updated_at": "2023-09-20T13:10:56.779Z",
+        "report_id": "f4b7d41a-41b6-467c-8ae0-0013b9d1907c"
+      },
+      {
+        "id": "9895b9ee-2d10-4e97-ab4b-72e530b66783",
+        "name": "Data 4",
+        "value": "Value 4",
+        "created_at": "2023-09-20T13:38:55.722Z",
+        "updated_at": "2023-09-20T11:22:52.500Z",
+        "report_id": "a5f9729b-2abd-4b54-98c3-685988c04b28"
+      },
+      {
+        "id": "53022468-0184-41cf-8867-17e3d1dab205",
+        "name": "Data 5",
+        "value": "Value 5",
+        "created_at": "2023-09-20T10:54:13.968Z",
+        "updated_at": "2023-09-19T21:39:13.544Z",
+        "report_id": "f4b7d41a-41b6-467c-8ae0-0013b9d1907c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b98de00b-1a28-42ae-b296-cc2678376a15",
+        "email": "Rahsaan1@hotmail.com",
+        "firstName": "Jovan",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/186.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0bfc482a-769c-4700-be59-fdc1f1000e63",
+        "email": "Bud_Hirthe@gmail.com",
+        "firstName": "Jovany",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/698.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "23111f0b-b200-4a6d-9ee5-a71a192eedf2",
+        "email": "Katelin59@gmail.com",
+        "firstName": "Arnulfo",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87422566",
+        "tenantId": null
+      },
+      {
+        "reference": "84408f2e-a08a-465c-b44c-0a0f076b8b10",
+        "email": "Oliver36@gmail.com",
+        "firstName": "Jon",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/606.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aded68ed-f1f4-4f75-a181-d337023be998",
+        "email": "Angeline_Ankunding13@yahoo.com",
+        "firstName": "Candice",
+        "lastName": "Mayer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98849652",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "update": [
+      {
+        "id": "23b4439c-55f9-4c34-bfd5-0080b12aea4e",
+        "created_at": "2023-09-19T23:46:21.187Z",
+        "updated_at": "2023-09-19T21:34:26.408Z"
+      },
+      {
+        "id": "83511ca7-20ce-4c2c-afe5-a7b23d499909",
+        "created_at": "2023-09-20T05:52:46.224Z",
+        "updated_at": "2023-09-20T12:27:25.066Z"
+      },
+      {
+        "id": "9f0206b6-c9f2-4518-ab29-3b393df566cd",
+        "created_at": "2023-09-20T02:08:55.678Z",
+        "updated_at": "2023-09-20T05:22:20.930Z"
+      },
+      {
+        "id": "f081bc65-8b56-4a4e-94cd-d6c3acedfa8b",
+        "created_at": "2023-09-20T06:20:48.849Z",
+        "updated_at": "2023-09-20T04:35:10.468Z"
+      },
+      {
+        "id": "90a65f02-9ff0-41db-99e8-2588986050f5",
+        "created_at": "2023-09-20T16:22:18.083Z",
+        "updated_at": "2023-09-19T19:46:21.183Z"
+      }
+    ],
+    "client": [
+      {
+        "id": "4ad4d887-7376-416b-a7fc-1679abada8d7",
+        "name": "ABC Company",
+        "address": "123 Main Street",
+        "contact_number": "555-1234",
+        "contact_person": "John Doe",
+        "created_at": "2023-09-20T15:23:56.797Z",
+        "updated_at": "2023-09-20T09:34:01.366Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "460d327f-5311-449d-ae09-7ad83caca78b",
+        "name": "XYZ Corporation",
+        "address": "456 Elm Avenue",
+        "contact_number": "555-5678",
+        "contact_person": "Jane Smith",
+        "created_at": "2023-09-19T19:00:34.945Z",
+        "updated_at": "2023-09-20T14:35:51.501Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "478dd7eb-ed91-49ea-b16f-ca7c55c6e8fc",
+        "name": "123 Industries",
+        "address": "789 Oak Drive",
+        "contact_number": "555-9012",
+        "contact_person": "Michael Brown",
+        "created_at": "2023-09-19T21:24:30.688Z",
+        "updated_at": "2023-09-20T01:58:29.631Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "ae6658f1-a790-4050-92e0-035d01b5970c",
+        "name": "Acme Co.",
+        "address": "321 Pine Lane",
+        "contact_number": "555-3456",
+        "contact_person": "Sarah Jones",
+        "created_at": "2023-09-20T08:28:25.549Z",
+        "updated_at": "2023-09-20T13:54:49.775Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "6ee7ab0b-9224-4808-a3b0-a307ed9e5db3",
+        "name": "Global Enterprises",
+        "address": "987 Maple Court",
+        "contact_number": "555-7890",
+        "contact_person": "David Wilson",
+        "created_at": "2023-09-19T21:57:53.308Z",
+        "updated_at": "2023-09-20T15:35:00.058Z",
+        "agency_id": "main_entity_pk"
+      }
+    ],
+    "campaign": [
+      {
+        "id": "d0abcd8f-67ae-45b3-b4c4-e12634997570",
+        "name": "Summer Sale",
+        "start_date": "2023-09-20T02:30:01.793Z",
+        "end_date": "2023-09-20T12:25:05.972Z",
+        "budget": 33463,
+        "created_at": "2023-09-20T00:04:11.547Z",
+        "updated_at": "2023-09-20T06:18:49.598Z",
+        "client_id": "ae6658f1-a790-4050-92e0-035d01b5970c"
+      },
+      {
+        "id": "e81054f8-7781-465a-bf1c-171f914b902d",
+        "name": "Holiday Promotion",
+        "start_date": "2023-09-20T13:15:32.695Z",
+        "end_date": "2023-09-20T13:16:55.778Z",
+        "budget": 12020,
+        "created_at": "2023-09-20T14:17:03.975Z",
+        "updated_at": "2023-09-20T15:26:21.897Z",
+        "client_id": "460d327f-5311-449d-ae09-7ad83caca78b"
+      },
+      {
+        "id": "4207e150-72b9-46ae-a3d7-dc9c211d5bed",
+        "name": "New Product Launch",
+        "start_date": "2023-09-19T20:14:51.082Z",
+        "end_date": "2023-09-20T14:53:36.406Z",
+        "budget": 51928,
+        "created_at": "2023-09-20T14:22:07.805Z",
+        "updated_at": "2023-09-20T11:59:09.667Z",
+        "client_id": "478dd7eb-ed91-49ea-b16f-ca7c55c6e8fc"
+      },
+      {
+        "id": "5a07bb28-c101-463a-b97d-7bff0cb758e2",
+        "name": "Back-to-School Campaign",
+        "start_date": "2023-09-20T09:18:43.713Z",
+        "end_date": "2023-09-19T20:25:55.703Z",
+        "budget": 37661,
+        "created_at": "2023-09-20T12:26:38.964Z",
+        "updated_at": "2023-09-20T16:04:09.026Z",
+        "client_id": "460d327f-5311-449d-ae09-7ad83caca78b"
+      },
+      {
+        "id": "f5097a5f-946e-467f-b603-cf110bde592d",
+        "name": "End of Year Clearance",
+        "start_date": "2023-09-20T08:03:49.261Z",
+        "end_date": "2023-09-20T07:32:00.501Z",
+        "budget": 52084,
+        "created_at": "2023-09-20T14:56:43.761Z",
+        "updated_at": "2023-09-19T20:10:34.619Z",
+        "client_id": "460d327f-5311-449d-ae09-7ad83caca78b"
+      }
+    ],
+    "report": [
+      {
+        "id": "0ace6973-279e-420c-af90-837396e201fb",
+        "title": "Quarterly Sales Report",
+        "content": "The sales have increased by 10% compared to last quarter.",
+        "created_at": "2023-09-20T13:11:46.414Z",
+        "updated_at": "2023-09-20T11:48:12.746Z",
+        "campaign_id": "f5097a5f-946e-467f-b603-cf110bde592d"
+      },
+      {
+        "id": "69083b9d-a0f8-40d9-9018-86a1db006c11",
+        "title": "Marketing Campaign Analysis",
+        "content": "The marketing campaign resulted in a 20% increase in conversions.",
+        "created_at": "2023-09-20T07:48:48.497Z",
+        "updated_at": "2023-09-20T17:11:14.157Z",
+        "campaign_id": "f5097a5f-946e-467f-b603-cf110bde592d"
+      },
+      {
+        "id": "8a1f4ac4-5f6d-47fe-9536-10c0694e7c1f",
+        "title": "Website Traffic Report",
+        "content": "The website traffic has doubled in the past month.",
+        "created_at": "2023-09-19T20:32:56.272Z",
+        "updated_at": "2023-09-20T11:15:52.804Z",
+        "campaign_id": "5a07bb28-c101-463a-b97d-7bff0cb758e2"
+      },
+      {
+        "id": "06c7512c-150d-43e0-bc27-f61d8d917db1",
+        "title": "Social Media Engagement Report",
+        "content": "The social media engagement has reached an all-time high.",
+        "created_at": "2023-09-20T01:51:57.208Z",
+        "updated_at": "2023-09-19T22:43:54.292Z",
+        "campaign_id": "5a07bb28-c101-463a-b97d-7bff0cb758e2"
+      },
+      {
+        "id": "658636d8-2311-4101-81c7-064a5bc8d151",
+        "title": "Customer Satisfaction Survey",
+        "content": "The customer satisfaction score is at 95%.",
+        "created_at": "2023-09-19T19:15:52.700Z",
+        "updated_at": "2023-09-20T03:56:43.879Z",
+        "campaign_id": "f5097a5f-946e-467f-b603-cf110bde592d"
+      }
+    ],
+    "data": [
+      {
+        "id": "7ae79b8e-8019-493f-a74f-c8da6c416830",
+        "name": "Data 1",
+        "value": "100",
+        "created_at": "2023-09-20T00:24:42.832Z",
+        "updated_at": "2023-09-20T04:24:14.345Z",
+        "report_id": "8a1f4ac4-5f6d-47fe-9536-10c0694e7c1f"
+      },
+      {
+        "id": "a9ed30db-85fa-4745-8af1-c490ccad6899",
+        "name": "Data 2",
+        "value": "200",
+        "created_at": "2023-09-20T09:40:42.026Z",
+        "updated_at": "2023-09-20T12:17:30.140Z",
+        "report_id": "06c7512c-150d-43e0-bc27-f61d8d917db1"
+      },
+      {
+        "id": "063f6da8-c768-4a1a-9075-396e5db49978",
+        "name": "Data 3",
+        "value": "300",
+        "created_at": "2023-09-20T14:50:11.243Z",
+        "updated_at": "2023-09-20T15:00:59.761Z",
+        "report_id": "0ace6973-279e-420c-af90-837396e201fb"
+      },
+      {
+        "id": "634a3a56-dff4-493c-af1c-502a709ab21d",
+        "name": "Data 4",
+        "value": "400",
+        "created_at": "2023-09-20T07:16:56.772Z",
+        "updated_at": "2023-09-20T01:19:27.109Z",
+        "report_id": "0ace6973-279e-420c-af90-837396e201fb"
+      },
+      {
+        "id": "ac32752c-43dc-4f26-91c2-e7efccf3d48f",
+        "name": "Data 5",
+        "value": "500",
+        "created_at": "2023-09-19T22:50:02.558Z",
+        "updated_at": "2023-09-20T00:49:24.023Z",
+        "report_id": "8a1f4ac4-5f6d-47fe-9536-10c0694e7c1f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "078c043b-ef7b-4e9b-9d86-6ae5dba97edc",
+        "email": "Anya_Watsica47@hotmail.com",
+        "firstName": "Keon",
+        "lastName": "Schmidt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/584.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "30dc2c91-ec4c-4216-9396-73de349ec83e",
+        "email": "Ryann_Littel@hotmail.com",
+        "firstName": "Joannie",
+        "lastName": "Mueller-Trantow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90097206",
+        "tenantId": null
+      },
+      {
+        "reference": "54cefa07-b8d0-4729-93d3-47ebeb5e0415",
+        "email": "Philip81@hotmail.com",
+        "firstName": "Cyrus",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1010.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "05a19349-e6d8-4f35-a647-1d323e5664e1",
+        "email": "Monroe89@gmail.com",
+        "firstName": "Jordyn",
+        "lastName": "Koch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48267806",
+        "tenantId": null
+      },
+      {
+        "reference": "8d19bc53-a944-4b24-814c-b7a6ad6f34fe",
+        "email": "Victoria8@hotmail.com",
+        "firstName": "Pierce",
+        "lastName": "Fahey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27213388",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "update": [
+      {
+        "id": "8da74f8d-4d93-4dfb-a905-9b5dd581abb4",
+        "created_at": "2023-09-19T23:02:37.431Z",
+        "updated_at": "2023-09-20T14:50:12.429Z"
+      },
+      {
+        "id": "35095312-309b-4e76-90aa-caa6decf53b7",
+        "created_at": "2023-09-19T18:04:51.595Z",
+        "updated_at": "2023-09-20T16:27:58.231Z"
+      },
+      {
+        "id": "92a179fe-0830-4693-b509-2989b035b0da",
+        "created_at": "2023-09-20T12:48:03.817Z",
+        "updated_at": "2023-09-19T20:53:09.215Z"
+      },
+      {
+        "id": "ea2c7fbb-a036-49ef-a04b-23e7094efe49",
+        "created_at": "2023-09-20T17:22:06.009Z",
+        "updated_at": "2023-09-20T13:32:18.139Z"
+      },
+      {
+        "id": "a1eab720-8318-43a5-8b60-1a1aba40343f",
+        "created_at": "2023-09-20T14:53:18.903Z",
+        "updated_at": "2023-09-20T07:03:07.342Z"
+      }
+    ],
+    "client": [
+      {
+        "id": "41d27519-31be-49ad-819a-e31617fafd1b",
+        "name": "ABC Corporation",
+        "address": "123 Main Street",
+        "contact_number": "555-1234",
+        "contact_person": "John Smith",
+        "created_at": "2023-09-20T05:21:16.046Z",
+        "updated_at": "2023-09-20T14:32:03.280Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "75c8e68e-28ab-4779-b430-7025f9163a10",
+        "name": "XYZ Corporation",
+        "address": "456 Elm Avenue",
+        "contact_number": "555-5678",
+        "contact_person": "Jane Doe",
+        "created_at": "2023-09-19T20:58:18.372Z",
+        "updated_at": "2023-09-20T12:26:17.883Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "2cb09091-abfe-4920-84d6-4cdf9d6f18c5",
+        "name": "123 Company",
+        "address": "789 Oak Drive",
+        "contact_number": "555-9012",
+        "contact_person": "Michael Brown",
+        "created_at": "2023-09-20T11:00:44.343Z",
+        "updated_at": "2023-09-20T00:40:24.362Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "6d79dcab-32e2-4baf-bf47-6f19762a7d6b",
+        "name": "Acme Inc.",
+        "address": "101 Maple Lane",
+        "contact_number": "555-3456",
+        "contact_person": "Sarah Jones",
+        "created_at": "2023-09-20T09:08:49.975Z",
+        "updated_at": "2023-09-20T10:33:59.159Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "69e28443-9871-4fb0-80a9-dc22db6a28f2",
+        "name": "Global Enterprises",
+        "address": "202 Pine Road",
+        "contact_number": "555-7890",
+        "contact_person": "Robert Wilson",
+        "created_at": "2023-09-20T09:10:03.506Z",
+        "updated_at": "2023-09-20T15:01:30.070Z",
+        "agency_id": "main_entity_pk"
+      }
+    ],
+    "campaign": [
+      {
+        "id": "1e6dc71c-5ba9-4aad-8dbd-28bd2d110735",
+        "name": "Summer Sale",
+        "start_date": "2023-09-20T15:28:57.701Z",
+        "end_date": "2023-09-19T19:33:06.305Z",
+        "budget": 11558,
+        "created_at": "2023-09-19T18:02:34.496Z",
+        "updated_at": "2023-09-19T21:04:00.567Z",
+        "client_id": "69e28443-9871-4fb0-80a9-dc22db6a28f2"
+      },
+      {
+        "id": "89870629-4718-4da5-81fd-b9a161473b56",
+        "name": "Holiday Promotion",
+        "start_date": "2023-09-20T10:33:48.756Z",
+        "end_date": "2023-09-19T23:27:21.198Z",
+        "budget": 30222,
+        "created_at": "2023-09-20T07:12:04.103Z",
+        "updated_at": "2023-09-19T20:50:34.598Z",
+        "client_id": "69e28443-9871-4fb0-80a9-dc22db6a28f2"
+      },
+      {
+        "id": "e473fd3e-cf04-4532-a6e1-04b228634b2b",
+        "name": "Product Launch",
+        "start_date": "2023-09-20T00:52:30.834Z",
+        "end_date": "2023-09-20T13:28:57.278Z",
+        "budget": 27111,
+        "created_at": "2023-09-20T05:55:40.750Z",
+        "updated_at": "2023-09-20T04:05:48.728Z",
+        "client_id": "69e28443-9871-4fb0-80a9-dc22db6a28f2"
+      },
+      {
+        "id": "7091ade1-17a3-4feb-8e12-447e5d08d306",
+        "name": "Brand Awareness",
+        "start_date": "2023-09-19T19:12:35.912Z",
+        "end_date": "2023-09-20T16:15:28.504Z",
+        "budget": 42413,
+        "created_at": "2023-09-19T19:08:31.680Z",
+        "updated_at": "2023-09-19T20:51:58.719Z",
+        "client_id": "6d79dcab-32e2-4baf-bf47-6f19762a7d6b"
+      },
+      {
+        "id": "85595886-284a-4080-9962-db22a4a9b643",
+        "name": "Customer Loyalty",
+        "start_date": "2023-09-20T08:47:23.639Z",
+        "end_date": "2023-09-20T09:15:41.865Z",
+        "budget": 97605,
+        "created_at": "2023-09-20T12:53:29.822Z",
+        "updated_at": "2023-09-20T13:35:42.473Z",
+        "client_id": "41d27519-31be-49ad-819a-e31617fafd1b"
+      }
+    ],
+    "report": [
+      {
+        "id": "093cfdda-691b-4229-a652-84f44d8f742d",
+        "title": "Quarterly Performance Report",
+        "content": "This report provides an overview of the company's performance for the past quarter.",
+        "created_at": "2023-09-20T07:48:43.220Z",
+        "updated_at": "2023-09-19T22:04:46.223Z",
+        "campaign_id": "e473fd3e-cf04-4532-a6e1-04b228634b2b"
+      },
+      {
+        "id": "b5e9c0b8-7679-402f-8bd0-9a7e3bbd035b",
+        "title": "Campaign Analysis Report",
+        "content": "The campaign analysis report includes an in-depth analysis of the effectiveness of various marketing campaigns.",
+        "created_at": "2023-09-20T05:36:30.618Z",
+        "updated_at": "2023-09-20T06:40:53.081Z",
+        "campaign_id": "e473fd3e-cf04-4532-a6e1-04b228634b2b"
+      },
+      {
+        "id": "b7f8d505-3688-47e0-9183-810bea111ec2",
+        "title": "Social Media Engagement Report",
+        "content": "The social media engagement report highlights the engagement levels on different social media platforms.",
+        "created_at": "2023-09-20T11:06:53.802Z",
+        "updated_at": "2023-09-19T19:36:25.403Z",
+        "campaign_id": "89870629-4718-4da5-81fd-b9a161473b56"
+      },
+      {
+        "id": "cc0367bd-bad0-4d8f-a27f-041f8c09d95c",
+        "title": "Website Traffic Report",
+        "content": "The website traffic report provides insights into the website's traffic sources and user behavior.",
+        "created_at": "2023-09-20T15:55:28.286Z",
+        "updated_at": "2023-09-20T00:35:34.176Z",
+        "campaign_id": "85595886-284a-4080-9962-db22a4a9b643"
+      },
+      {
+        "id": "885750a6-ffbe-46a6-9443-40970fc49b55",
+        "title": "Email Marketing Metrics Report",
+        "content": "The email marketing metrics report analyzes the performance of email marketing campaigns.",
+        "created_at": "2023-09-20T13:36:23.299Z",
+        "updated_at": "2023-09-20T04:52:58.774Z",
+        "campaign_id": "e473fd3e-cf04-4532-a6e1-04b228634b2b"
+      }
+    ],
+    "data": [
+      {
+        "id": "923b02ff-b186-4386-b241-efede0b887c0",
+        "name": "Sales",
+        "value": "$1,000,000",
+        "created_at": "2023-09-19T23:56:46.989Z",
+        "updated_at": "2023-09-20T10:40:35.253Z",
+        "report_id": "093cfdda-691b-4229-a652-84f44d8f742d"
+      },
+      {
+        "id": "29b8021d-4222-4ed6-98d0-81f0291f4b1b",
+        "name": "Revenue",
+        "value": "$500,000",
+        "created_at": "2023-09-20T05:32:15.941Z",
+        "updated_at": "2023-09-20T16:47:44.638Z",
+        "report_id": "cc0367bd-bad0-4d8f-a27f-041f8c09d95c"
+      },
+      {
+        "id": "d1ee3ee4-4f71-4eba-b80b-693dfea885f7",
+        "name": "Website Traffic",
+        "value": "10,000 visitors",
+        "created_at": "2023-09-19T21:41:41.209Z",
+        "updated_at": "2023-09-20T02:37:01.756Z",
+        "report_id": "b7f8d505-3688-47e0-9183-810bea111ec2"
+      },
+      {
+        "id": "4fb4939c-d427-4701-97bf-ec51af5dfc3a",
+        "name": "Customer Satisfaction",
+        "value": "90% satisfaction rate",
+        "created_at": "2023-09-19T23:38:36.794Z",
+        "updated_at": "2023-09-20T11:36:52.511Z",
+        "report_id": "cc0367bd-bad0-4d8f-a27f-041f8c09d95c"
+      },
+      {
+        "id": "6ae2ae15-edda-433d-8b69-716bc375105a",
+        "name": "Social Media Followers",
+        "value": "50,000 followers",
+        "created_at": "2023-09-19T22:00:56.129Z",
+        "updated_at": "2023-09-20T06:16:49.220Z",
+        "report_id": "b7f8d505-3688-47e0-9183-810bea111ec2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "36f75659-b60d-4271-ae42-42ff134c1c56",
+        "email": "Silas.Sauer71@yahoo.com",
+        "firstName": "Desiree",
+        "lastName": "Spencer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/384.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4802d561-64b4-4b32-89be-a81e5442a311",
+        "email": "Alfred65@hotmail.com",
+        "firstName": "Percival",
+        "lastName": "Witting",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/579.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "01e26a48-3002-40c2-bb40-f8a5cfa11b74",
+        "email": "Adelle23@hotmail.com",
+        "firstName": "Berenice",
+        "lastName": "Kuhlman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51637960",
+        "tenantId": null
+      },
+      {
+        "reference": "1caa9fb1-9920-424d-b9ad-52f8c6ec818a",
+        "email": "Jamison.Balistreri69@hotmail.com",
+        "firstName": "Keyshawn",
+        "lastName": "Hackett-Green",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1207.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d0e2a9fe-3611-42e9-9d0c-dffde482730c",
+        "email": "Jeramy44@hotmail.com",
+        "firstName": "Cade",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1103.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "update": [
+      {
+        "id": "90247ea4-a308-4b3f-b4b8-b07fd8d124af",
+        "created_at": "2023-09-20T17:19:38.775Z",
+        "updated_at": "2023-09-20T00:38:06.842Z"
+      },
+      {
+        "id": "095a6ca2-af47-4c44-b14f-32a71df8eaa1",
+        "created_at": "2023-09-20T03:25:30.381Z",
+        "updated_at": "2023-09-20T14:36:50.702Z"
+      },
+      {
+        "id": "e83f373d-8f2a-4a54-bf56-41065ec1ebbe",
+        "created_at": "2023-09-20T13:45:39.851Z",
+        "updated_at": "2023-09-20T02:03:14.720Z"
+      },
+      {
+        "id": "b64b9184-26e3-431a-a6c7-87619e087c0f",
+        "created_at": "2023-09-20T06:11:48.550Z",
+        "updated_at": "2023-09-20T01:53:14.353Z"
+      },
+      {
+        "id": "75ad89d5-dc9b-435a-8275-7f80ee8ae8c1",
+        "created_at": "2023-09-19T21:16:04.140Z",
+        "updated_at": "2023-09-19T20:05:32.614Z"
+      }
+    ],
+    "client": [
+      {
+        "id": "004f3264-b1bb-4f71-83de-cb8222d689eb",
+        "name": "ABC Company",
+        "address": "123 Main St",
+        "contact_number": "555-1234",
+        "contact_person": "John Doe",
+        "created_at": "2023-09-19T18:28:16.891Z",
+        "updated_at": "2023-09-20T13:21:46.825Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "65e3b7e8-d67a-42a4-a74c-55822e532b81",
+        "name": "XYZ Corporation",
+        "address": "456 Elm St",
+        "contact_number": "555-5678",
+        "contact_person": "Jane Smith",
+        "created_at": "2023-09-20T01:47:30.719Z",
+        "updated_at": "2023-09-20T15:56:58.753Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "b85f000d-6b10-40c6-a0be-3c1c243e7c9c",
+        "name": "123 Enterprises",
+        "address": "789 Oak Ave",
+        "contact_number": "555-9012",
+        "contact_person": "Michael Brown",
+        "created_at": "2023-09-20T04:48:24.009Z",
+        "updated_at": "2023-09-20T08:04:18.151Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "61f20e77-f8df-46d2-b2bf-62d9fec4e840",
+        "name": "Acme Ltd",
+        "address": "321 Pine Rd",
+        "contact_number": "555-3456",
+        "contact_person": "Sarah Jones",
+        "created_at": "2023-09-19T20:04:56.540Z",
+        "updated_at": "2023-09-20T16:22:46.722Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "8f3e8eb6-f254-426e-91c5-9f074b840d22",
+        "name": "Global Industries",
+        "address": "654 Maple Blvd",
+        "contact_number": "555-7890",
+        "contact_person": "David Wilson",
+        "created_at": "2023-09-20T01:52:54.704Z",
+        "updated_at": "2023-09-20T14:18:23.185Z",
+        "agency_id": "main_entity_pk"
+      }
+    ],
+    "campaign": [
+      {
+        "id": "60c8b7cc-4982-4389-8442-86599cbd5633",
+        "name": "Summer Sale",
+        "start_date": "2023-09-20T10:57:37.622Z",
+        "end_date": "2023-09-20T14:57:39.242Z",
+        "budget": 82582,
+        "created_at": "2023-09-20T11:32:15.251Z",
+        "updated_at": "2023-09-20T15:13:53.803Z",
+        "client_id": "8f3e8eb6-f254-426e-91c5-9f074b840d22"
+      },
+      {
+        "id": "f987f37f-bef1-4dc6-a194-fad4b0b2205d",
+        "name": "Holiday Promotion",
+        "start_date": "2023-09-19T19:41:12.858Z",
+        "end_date": "2023-09-20T06:13:27.595Z",
+        "budget": 77917,
+        "created_at": "2023-09-20T12:18:37.170Z",
+        "updated_at": "2023-09-20T11:40:38.774Z",
+        "client_id": "65e3b7e8-d67a-42a4-a74c-55822e532b81"
+      },
+      {
+        "id": "feaa3b04-cc36-466a-bb22-a0f002f6c781",
+        "name": "Back-to-School Campaign",
+        "start_date": "2023-09-19T19:41:08.379Z",
+        "end_date": "2023-09-19T22:33:00.136Z",
+        "budget": 81877,
+        "created_at": "2023-09-20T08:05:32.415Z",
+        "updated_at": "2023-09-20T13:50:58.376Z",
+        "client_id": "004f3264-b1bb-4f71-83de-cb8222d689eb"
+      },
+      {
+        "id": "b2212537-e315-4972-81d1-15a91e34feaf",
+        "name": "Product Launch",
+        "start_date": "2023-09-20T13:02:58.754Z",
+        "end_date": "2023-09-20T02:57:36.445Z",
+        "budget": 69580,
+        "created_at": "2023-09-19T18:12:53.071Z",
+        "updated_at": "2023-09-20T06:56:27.507Z",
+        "client_id": "8f3e8eb6-f254-426e-91c5-9f074b840d22"
+      },
+      {
+        "id": "f27d5e6a-2d0e-4489-b758-44fc1dd56ac1",
+        "name": "Customer Appreciation",
+        "start_date": "2023-09-19T22:24:15.984Z",
+        "end_date": "2023-09-20T09:23:50.998Z",
+        "budget": 18655,
+        "created_at": "2023-09-20T10:16:20.912Z",
+        "updated_at": "2023-09-20T12:55:42.426Z",
+        "client_id": "8f3e8eb6-f254-426e-91c5-9f074b840d22"
+      }
+    ],
+    "report": [
+      {
+        "id": "8939e8d1-cfbd-4d96-9cc5-c9a1a82bafc2",
+        "title": "Monthly Sales Report",
+        "content": "This report provides an overview of the sales performance for the month of July.",
+        "created_at": "2023-09-20T03:37:19.908Z",
+        "updated_at": "2023-09-19T20:47:54.884Z",
+        "campaign_id": "b2212537-e315-4972-81d1-15a91e34feaf"
+      },
+      {
+        "id": "4292166d-aa72-4d4c-8bf1-cb9442dd71df",
+        "title": "Marketing Campaign Analysis",
+        "content": "The analysis includes the effectiveness of different marketing campaigns.",
+        "created_at": "2023-09-19T18:24:28.478Z",
+        "updated_at": "2023-09-19T18:09:24.269Z",
+        "campaign_id": "f27d5e6a-2d0e-4489-b758-44fc1dd56ac1"
+      },
+      {
+        "id": "34155f26-bda3-43a0-bd62-b625e9ad907a",
+        "title": "Website Traffic Report",
+        "content": "The report shows the website traffic trends over the past month.",
+        "created_at": "2023-09-19T20:06:01.162Z",
+        "updated_at": "2023-09-19T22:18:48.050Z",
+        "campaign_id": "f27d5e6a-2d0e-4489-b758-44fc1dd56ac1"
+      },
+      {
+        "id": "95bc0cd1-12f2-4cdc-a861-4c25503b2fbc",
+        "title": "Social Media Engagement Report",
+        "content": "This report analyzes the engagement levels on various social media platforms.",
+        "created_at": "2023-09-20T15:10:23.130Z",
+        "updated_at": "2023-09-19T23:23:56.569Z",
+        "campaign_id": "f27d5e6a-2d0e-4489-b758-44fc1dd56ac1"
+      },
+      {
+        "id": "0819aaf8-d00c-4e77-b6d5-76d6925937f4",
+        "title": "Email Marketing Performance",
+        "content": "The performance of email marketing campaigns is evaluated in this report.",
+        "created_at": "2023-09-20T01:22:37.808Z",
+        "updated_at": "2023-09-20T02:16:02.356Z",
+        "campaign_id": "f987f37f-bef1-4dc6-a194-fad4b0b2205d"
+      }
+    ],
+    "data": [
+      {
+        "id": "c3d6ea62-4610-4cc4-8d7a-093d81b8a0fd",
+        "name": "Revenue",
+        "value": "$100,000",
+        "created_at": "2023-09-20T05:42:59.012Z",
+        "updated_at": "2023-09-20T12:57:20.543Z",
+        "report_id": "95bc0cd1-12f2-4cdc-a861-4c25503b2fbc"
+      },
+      {
+        "id": "02916205-e45b-47ad-801d-1e478fc461f7",
+        "name": "Website Visitors",
+        "value": "10,000",
+        "created_at": "2023-09-20T01:46:43.702Z",
+        "updated_at": "2023-09-20T08:08:51.612Z",
+        "report_id": "34155f26-bda3-43a0-bd62-b625e9ad907a"
+      },
+      {
+        "id": "bc6b0dc3-9c32-43e0-87c0-0b2242bc213c",
+        "name": "Social Media Followers",
+        "value": "50,000",
+        "created_at": "2023-09-19T18:56:16.880Z",
+        "updated_at": "2023-09-20T12:03:41.802Z",
+        "report_id": "8939e8d1-cfbd-4d96-9cc5-c9a1a82bafc2"
+      },
+      {
+        "id": "be2f80fc-5d22-4c60-96b8-281dae954855",
+        "name": "Email Subscribers",
+        "value": "5,000",
+        "created_at": "2023-09-19T20:44:53.157Z",
+        "updated_at": "2023-09-20T06:20:23.290Z",
+        "report_id": "8939e8d1-cfbd-4d96-9cc5-c9a1a82bafc2"
+      },
+      {
+        "id": "55f6bc49-329f-4362-ba07-95e12dbf0e5a",
+        "name": "Customer Satisfaction",
+        "value": "90%",
+        "created_at": "2023-09-20T11:09:19.733Z",
+        "updated_at": "2023-09-19T17:37:28.930Z",
+        "report_id": "4292166d-aa72-4d4c-8bf1-cb9442dd71df"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a5cb69b9-49f4-419c-b3db-33ca085dcaad",
+        "email": "Izaiah_Blanda@hotmail.com",
+        "firstName": "Delphia",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59665195",
+        "tenantId": null
+      },
+      {
+        "reference": "559be626-721e-4507-9766-e73f87461bc2",
+        "email": "Kenyon_Barrows@yahoo.com",
+        "firstName": "Valentina",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/338.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e9361c21-8844-4186-94df-e34dac369ba8",
+        "email": "Rod.Miller@yahoo.com",
+        "firstName": "Kyler",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89667520",
+        "tenantId": null
+      },
+      {
+        "reference": "5de02a0a-4210-48c7-927c-5e8953a68431",
+        "email": "Kurtis.Schultz47@yahoo.com",
+        "firstName": "Dean",
+        "lastName": "Hettinger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/205.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1b16f02f-a605-4ab9-986e-e781051ae453",
+        "email": "Edwina_Rau@gmail.com",
+        "firstName": "Ludie",
+        "lastName": "Torphy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/801.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "update": [
+      {
+        "id": "738fa52d-189a-4609-a2f0-81559c7199c4",
+        "created_at": "2023-09-20T15:49:00.671Z",
+        "updated_at": "2023-09-19T23:26:58.032Z"
+      },
+      {
+        "id": "73073b27-fd02-44dc-ad01-f2051582f33d",
+        "created_at": "2023-09-20T03:44:39.435Z",
+        "updated_at": "2023-09-20T14:19:08.972Z"
+      },
+      {
+        "id": "33da4c52-9c6f-48da-9268-8cc7127b0166",
+        "created_at": "2023-09-20T13:24:40.905Z",
+        "updated_at": "2023-09-19T20:14:24.676Z"
+      },
+      {
+        "id": "a1ba7363-dec9-4038-a5cf-bf395946518b",
+        "created_at": "2023-09-20T10:01:36.188Z",
+        "updated_at": "2023-09-20T05:58:03.655Z"
+      },
+      {
+        "id": "ab105fb4-58db-4654-a915-5207fb97927b",
+        "created_at": "2023-09-20T02:08:18.954Z",
+        "updated_at": "2023-09-19T19:57:48.417Z"
+      }
+    ],
+    "client": [
+      {
+        "id": "36ac080c-ed1f-4be9-8aad-f3981585a858",
+        "name": "ABC Company",
+        "address": "123 Main Street",
+        "contact_number": "555-1234",
+        "contact_person": "John Smith",
+        "created_at": "2023-09-20T09:44:18.412Z",
+        "updated_at": "2023-09-20T00:34:23.611Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "094e6994-b806-47b1-a159-833607748c31",
+        "name": "XYZ Corporation",
+        "address": "456 Elm Avenue",
+        "contact_number": "555-5678",
+        "contact_person": "Jane Doe",
+        "created_at": "2023-09-20T03:47:15.084Z",
+        "updated_at": "2023-09-19T19:00:49.073Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "56ac6115-c744-44f8-b403-d7b499dcc405",
+        "name": "123 Enterprises",
+        "address": "789 Oak Lane",
+        "contact_number": "555-9012",
+        "contact_person": "Michael Brown",
+        "created_at": "2023-09-20T13:27:47.719Z",
+        "updated_at": "2023-09-20T11:24:52.096Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "e0926917-9706-4629-beaa-1744b3181a05",
+        "name": "Acme Ltd.",
+        "address": "10 Maple Road",
+        "contact_number": "555-3456",
+        "contact_person": "Sarah Jones",
+        "created_at": "2023-09-19T20:08:12.711Z",
+        "updated_at": "2023-09-20T14:43:23.192Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "8c140199-552d-4dc8-832b-4c2069ffb912",
+        "name": "Global Industries",
+        "address": "555 Pine Boulevard",
+        "contact_number": "555-7890",
+        "contact_person": "David Wilson",
+        "created_at": "2023-09-20T15:41:59.045Z",
+        "updated_at": "2023-09-20T01:30:27.175Z",
+        "agency_id": "main_entity_pk"
+      }
+    ],
+    "campaign": [
+      {
+        "id": "258c3a21-bb24-4081-9888-5734b19f8211",
+        "name": "Summer Sale",
+        "start_date": "2023-09-20T00:29:49.751Z",
+        "end_date": "2023-09-20T05:47:14.576Z",
+        "budget": 61861,
+        "created_at": "2023-09-19T19:11:51.211Z",
+        "updated_at": "2023-09-20T06:18:30.811Z",
+        "client_id": "e0926917-9706-4629-beaa-1744b3181a05"
+      },
+      {
+        "id": "545c2e20-4a99-4be8-8e0f-763ae0ebd2e8",
+        "name": "Back to School",
+        "start_date": "2023-09-20T09:18:07.311Z",
+        "end_date": "2023-09-20T09:54:17.532Z",
+        "budget": 75296,
+        "created_at": "2023-09-20T16:51:41.585Z",
+        "updated_at": "2023-09-20T17:02:36.635Z",
+        "client_id": "56ac6115-c744-44f8-b403-d7b499dcc405"
+      },
+      {
+        "id": "26379422-01fe-4685-97ad-29885d201c14",
+        "name": "Holiday Specials",
+        "start_date": "2023-09-20T08:16:54.297Z",
+        "end_date": "2023-09-20T10:07:33.059Z",
+        "budget": 56092,
+        "created_at": "2023-09-20T05:22:49.110Z",
+        "updated_at": "2023-09-20T09:43:40.259Z",
+        "client_id": "56ac6115-c744-44f8-b403-d7b499dcc405"
+      },
+      {
+        "id": "431a6403-de4e-4f2c-b37d-e341784f7092",
+        "name": "New Year's Resolution",
+        "start_date": "2023-09-20T03:14:51.150Z",
+        "end_date": "2023-09-20T10:33:04.405Z",
+        "budget": 78627,
+        "created_at": "2023-09-19T23:18:14.475Z",
+        "updated_at": "2023-09-20T01:35:42.593Z",
+        "client_id": "e0926917-9706-4629-beaa-1744b3181a05"
+      },
+      {
+        "id": "c6fa795e-8554-4713-9a1d-014bd27f1da2",
+        "name": "Spring Cleaning",
+        "start_date": "2023-09-19T19:32:07.140Z",
+        "end_date": "2023-09-20T13:18:48.093Z",
+        "budget": 29359,
+        "created_at": "2023-09-20T06:30:41.524Z",
+        "updated_at": "2023-09-20T04:31:32.106Z",
+        "client_id": "094e6994-b806-47b1-a159-833607748c31"
+      }
+    ],
+    "report": [
+      {
+        "id": "bf3d42d3-ab14-43f7-a2f9-e7c5e7e13ea8",
+        "title": "Monthly Performance Report",
+        "content": "This report provides an overview of the performance for the month.",
+        "created_at": "2023-09-19T18:36:44.509Z",
+        "updated_at": "2023-09-20T16:16:41.637Z",
+        "campaign_id": "431a6403-de4e-4f2c-b37d-e341784f7092"
+      },
+      {
+        "id": "1919b4f4-b11d-41f7-bc78-dd9317b8bdcd",
+        "title": "Campaign Analysis Report",
+        "content": "The analysis report highlights the key findings from the campaign.",
+        "created_at": "2023-09-20T05:24:17.809Z",
+        "updated_at": "2023-09-19T19:12:52.627Z",
+        "campaign_id": "545c2e20-4a99-4be8-8e0f-763ae0ebd2e8"
+      },
+      {
+        "id": "507738ba-4323-4f5e-b642-970fb2c8d3e3",
+        "title": "Social Media Engagement Report",
+        "content": "The social media engagement report showcases the engagement metrics.",
+        "created_at": "2023-09-20T17:14:53.435Z",
+        "updated_at": "2023-09-19T21:05:32.598Z",
+        "campaign_id": "545c2e20-4a99-4be8-8e0f-763ae0ebd2e8"
+      },
+      {
+        "id": "157f7bb6-4ba3-4089-b77d-07620753634b",
+        "title": "Website Traffic Report",
+        "content": "The website traffic report presents the traffic data for the specified period.",
+        "created_at": "2023-09-19T19:28:36.623Z",
+        "updated_at": "2023-09-20T11:00:03.770Z",
+        "campaign_id": "431a6403-de4e-4f2c-b37d-e341784f7092"
+      },
+      {
+        "id": "61a8d76b-a3c9-4f00-9328-c67d3c459967",
+        "title": "Email Marketing Report",
+        "content": "The email marketing report provides insights into the email campaigns.",
+        "created_at": "2023-09-20T15:26:41.991Z",
+        "updated_at": "2023-09-20T12:31:14.480Z",
+        "campaign_id": "26379422-01fe-4685-97ad-29885d201c14"
+      }
+    ],
+    "data": [
+      {
+        "id": "65b74416-5a9e-4a62-9b35-5f434189da1e",
+        "name": "Sales",
+        "value": "$100,000",
+        "created_at": "2023-09-19T22:31:19.488Z",
+        "updated_at": "2023-09-20T01:30:07.882Z",
+        "report_id": "bf3d42d3-ab14-43f7-a2f9-e7c5e7e13ea8"
+      },
+      {
+        "id": "eed029db-762e-4aad-81b0-bbcd78738726",
+        "name": "Revenue",
+        "value": "$50,000",
+        "created_at": "2023-09-20T00:09:16.030Z",
+        "updated_at": "2023-09-20T09:30:54.552Z",
+        "report_id": "1919b4f4-b11d-41f7-bc78-dd9317b8bdcd"
+      },
+      {
+        "id": "f2ca6f9b-9f95-48b3-b131-76db8f765021",
+        "name": "Website Traffic",
+        "value": "10,000 visits",
+        "created_at": "2023-09-20T15:41:52.212Z",
+        "updated_at": "2023-09-20T06:40:46.493Z",
+        "report_id": "bf3d42d3-ab14-43f7-a2f9-e7c5e7e13ea8"
+      },
+      {
+        "id": "9dded739-0bab-42cc-bc80-58a288f7f237",
+        "name": "Customer Satisfaction",
+        "value": "90% satisfaction rate",
+        "created_at": "2023-09-19T20:05:28.751Z",
+        "updated_at": "2023-09-19T18:35:22.140Z",
+        "report_id": "1919b4f4-b11d-41f7-bc78-dd9317b8bdcd"
+      },
+      {
+        "id": "98ce625e-a32d-4660-b42f-d84a1451ca3e",
+        "name": "Social Media Followers",
+        "value": "50,000 followers",
+        "created_at": "2023-09-20T01:29:24.964Z",
+        "updated_at": "2023-09-20T12:47:54.225Z",
+        "report_id": "bf3d42d3-ab14-43f7-a2f9-e7c5e7e13ea8"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "82722110-d2ca-4f73-ad89-183d0b35b0a1",
+        "email": "Kaelyn_Swift@gmail.com",
+        "firstName": "Destini",
+        "lastName": "Gottlieb",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/402.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "766749bb-3cac-4b8c-be94-63a7cc1500b2",
+        "email": "Tressa_Steuber81@hotmail.com",
+        "firstName": "Jacklyn",
+        "lastName": "Lockman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83670682",
+        "tenantId": null
+      },
+      {
+        "reference": "dfa314b4-0263-45b4-ae24-1271358d837b",
+        "email": "Marlon.Langworth@gmail.com",
+        "firstName": "Salvador",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/561.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aa3bd953-60f5-444f-8eb5-15fde56188c9",
+        "email": "Agnes.Abbott55@gmail.com",
+        "firstName": "Kelton",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61352038",
+        "tenantId": null
+      },
+      {
+        "reference": "460bccd6-fcbc-45ef-8218-680136219cf8",
+        "email": "Theodora32@yahoo.com",
+        "firstName": "Kylee",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4983401",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "update": [
+      {
+        "id": "d2df536b-9134-494a-a7fd-b9fdbd5a17c5",
+        "created_at": "2023-09-19T18:58:29.495Z",
+        "updated_at": "2023-09-20T03:49:44.126Z"
+      },
+      {
+        "id": "29eaaf51-52e8-4c5a-a6e8-29a89c9e7081",
+        "created_at": "2023-09-20T12:25:49.810Z",
+        "updated_at": "2023-09-20T12:23:43.817Z"
+      },
+      {
+        "id": "d6cfe96b-d122-4564-8598-21ac644cd8de",
+        "created_at": "2023-09-19T17:30:16.407Z",
+        "updated_at": "2023-09-20T08:04:03.753Z"
+      },
+      {
+        "id": "a1a8ffc4-4563-48b8-91f8-58c9c73ccaaa",
+        "created_at": "2023-09-19T17:59:29.543Z",
+        "updated_at": "2023-09-19T17:49:45.336Z"
+      },
+      {
+        "id": "9264324f-c518-4e6a-916e-e1c756ac7e1c",
+        "created_at": "2023-09-20T16:44:05.046Z",
+        "updated_at": "2023-09-20T11:21:25.828Z"
+      }
+    ],
+    "client": [
+      {
+        "id": "9250936f-f6cd-4d30-9f4b-e708c21f6de8",
+        "name": "ABC Company",
+        "address": "123 Main Street",
+        "contact_number": "555-1234",
+        "contact_person": "John Doe",
+        "created_at": "2023-09-20T15:11:31.776Z",
+        "updated_at": "2023-09-20T09:23:16.395Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "6dfc5c8d-1603-41d9-8205-d59335419bb7",
+        "name": "XYZ Corporation",
+        "address": "456 Park Avenue",
+        "contact_number": "555-5678",
+        "contact_person": "Jane Smith",
+        "created_at": "2023-09-20T16:20:11.154Z",
+        "updated_at": "2023-09-19T23:15:57.493Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "2e95028e-a4d8-4da9-84c2-b2f81cc475d1",
+        "name": "123 Industries",
+        "address": "789 Elm Road",
+        "contact_number": "555-9012",
+        "contact_person": "Michael Brown",
+        "created_at": "2023-09-20T13:55:14.478Z",
+        "updated_at": "2023-09-20T06:51:33.965Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "3940d01d-dbc8-410a-ae09-71f7cd80e656",
+        "name": "Acme Ltd.",
+        "address": "101 Maple Lane",
+        "contact_number": "555-3456",
+        "contact_person": "Sarah Jones",
+        "created_at": "2023-09-20T03:47:09.045Z",
+        "updated_at": "2023-09-20T15:37:27.995Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "a0bc28c8-cc58-46b9-9cef-7f929fed99f5",
+        "name": "Global Enterprises",
+        "address": "202 Oak Drive",
+        "contact_number": "555-7890",
+        "contact_person": "David Wilson",
+        "created_at": "2023-09-20T11:25:57.820Z",
+        "updated_at": "2023-09-20T10:03:38.772Z",
+        "agency_id": "main_entity_pk"
+      }
+    ],
+    "campaign": [
+      {
+        "id": "a4c2cf38-76d3-4f20-a515-f28326b503b8",
+        "name": "Summer Sale",
+        "start_date": "2023-09-19T23:00:02.968Z",
+        "end_date": "2023-09-19T23:47:03.932Z",
+        "budget": 32515,
+        "created_at": "2023-09-20T00:49:30.074Z",
+        "updated_at": "2023-09-20T10:00:14.179Z",
+        "client_id": "2e95028e-a4d8-4da9-84c2-b2f81cc475d1"
+      },
+      {
+        "id": "e18e062e-8af6-4fa9-a8f8-9ea3513e7f21",
+        "name": "Holiday Promotion",
+        "start_date": "2023-09-20T08:29:23.784Z",
+        "end_date": "2023-09-20T00:54:50.963Z",
+        "budget": 8177,
+        "created_at": "2023-09-20T08:18:33.641Z",
+        "updated_at": "2023-09-20T06:33:17.675Z",
+        "client_id": "6dfc5c8d-1603-41d9-8205-d59335419bb7"
+      },
+      {
+        "id": "7063b273-2fc3-43de-acee-cc78968bf4cb",
+        "name": "Back to School",
+        "start_date": "2023-09-20T15:47:07.425Z",
+        "end_date": "2023-09-19T19:39:44.497Z",
+        "budget": 15173,
+        "created_at": "2023-09-20T08:48:08.129Z",
+        "updated_at": "2023-09-20T03:54:16.604Z",
+        "client_id": "9250936f-f6cd-4d30-9f4b-e708c21f6de8"
+      },
+      {
+        "id": "83fe293c-4a26-4dd3-9f06-81bc8fdebfff",
+        "name": "New Product Launch",
+        "start_date": "2023-09-20T10:21:44.826Z",
+        "end_date": "2023-09-20T16:55:24.504Z",
+        "budget": 32316,
+        "created_at": "2023-09-20T03:44:43.471Z",
+        "updated_at": "2023-09-20T12:00:30.725Z",
+        "client_id": "6dfc5c8d-1603-41d9-8205-d59335419bb7"
+      },
+      {
+        "id": "af252ba8-d49a-4210-a4bc-0051e00dd3cd",
+        "name": "End of Year Clearance",
+        "start_date": "2023-09-20T04:19:18.018Z",
+        "end_date": "2023-09-19T18:15:43.460Z",
+        "budget": 27115,
+        "created_at": "2023-09-20T04:13:14.602Z",
+        "updated_at": "2023-09-19T18:51:33.093Z",
+        "client_id": "3940d01d-dbc8-410a-ae09-71f7cd80e656"
+      }
+    ],
+    "report": [
+      {
+        "id": "c737925a-c063-422f-80e2-a3031ebc10b3",
+        "title": "Quarterly Sales Report",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "created_at": "2023-09-20T00:01:05.993Z",
+        "updated_at": "2023-09-19T17:56:59.099Z",
+        "campaign_id": "7063b273-2fc3-43de-acee-cc78968bf4cb"
+      },
+      {
+        "id": "f4cd5544-0a1f-4e69-87d1-e2587b9d66c3",
+        "title": "Marketing Analysis",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+        "created_at": "2023-09-20T16:14:03.294Z",
+        "updated_at": "2023-09-20T08:26:21.915Z",
+        "campaign_id": "83fe293c-4a26-4dd3-9f06-81bc8fdebfff"
+      },
+      {
+        "id": "6f676d06-557d-407c-85ba-1587a232133f",
+        "title": "Website Traffic Report",
+        "content": "At vero eos et accusamus et iusto odio dignissimos ducimus.",
+        "created_at": "2023-09-20T06:56:22.395Z",
+        "updated_at": "2023-09-20T10:50:33.215Z",
+        "campaign_id": "7063b273-2fc3-43de-acee-cc78968bf4cb"
+      },
+      {
+        "id": "4ed1036d-96cb-4b26-ad11-cf6b75421559",
+        "title": "Social Media Engagement",
+        "content": "Eaque ipsa quae ab illo inventore veritatis et quasi architecto.",
+        "created_at": "2023-09-19T19:50:42.567Z",
+        "updated_at": "2023-09-20T11:05:43.204Z",
+        "campaign_id": "a4c2cf38-76d3-4f20-a515-f28326b503b8"
+      },
+      {
+        "id": "68c7fade-e501-43a0-a56f-4df31f0e7c34",
+        "title": "Campaign Performance",
+        "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "created_at": "2023-09-19T18:10:13.501Z",
+        "updated_at": "2023-09-20T10:31:57.181Z",
+        "campaign_id": "e18e062e-8af6-4fa9-a8f8-9ea3513e7f21"
+      }
+    ],
+    "data": [
+      {
+        "id": "b3d24852-160c-465a-a076-c7b7d6daae95",
+        "name": "Data 1",
+        "value": "Value 1",
+        "created_at": "2023-09-19T18:18:30.674Z",
+        "updated_at": "2023-09-20T12:25:26.617Z",
+        "report_id": "c737925a-c063-422f-80e2-a3031ebc10b3"
+      },
+      {
+        "id": "80947aae-0f51-4de4-9cce-463e58ef0a6d",
+        "name": "Data 2",
+        "value": "Value 2",
+        "created_at": "2023-09-20T10:04:43.613Z",
+        "updated_at": "2023-09-20T08:10:34.516Z",
+        "report_id": "f4cd5544-0a1f-4e69-87d1-e2587b9d66c3"
+      },
+      {
+        "id": "c8fe3c6d-7c91-4f01-9034-c4e554bdb3e5",
+        "name": "Data 3",
+        "value": "Value 3",
+        "created_at": "2023-09-20T12:12:14.999Z",
+        "updated_at": "2023-09-20T08:00:30.271Z",
+        "report_id": "c737925a-c063-422f-80e2-a3031ebc10b3"
+      },
+      {
+        "id": "009ebd3f-6274-4156-8e31-bd0d3db48201",
+        "name": "Data 4",
+        "value": "Value 4",
+        "created_at": "2023-09-20T15:11:19.619Z",
+        "updated_at": "2023-09-20T10:15:19.398Z",
+        "report_id": "68c7fade-e501-43a0-a56f-4df31f0e7c34"
+      },
+      {
+        "id": "427c2257-3bc2-45df-a41f-13c9a3248e88",
+        "name": "Data 5",
+        "value": "Value 5",
+        "created_at": "2023-09-20T11:51:48.411Z",
+        "updated_at": "2023-09-20T17:01:32.371Z",
+        "report_id": "4ed1036d-96cb-4b26-ad11-cf6b75421559"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6254c6d0-70ee-4508-963d-a9dd937b823f",
+        "email": "Abby20@yahoo.com",
+        "firstName": "Nicholas",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33344951",
+        "tenantId": null
+      },
+      {
+        "reference": "54312127-d635-44e4-9e87-7f85173742ef",
+        "email": "Amani.OKeefe@hotmail.com",
+        "firstName": "Lillie",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49510097",
+        "tenantId": null
+      },
+      {
+        "reference": "7ede9ed8-1b1a-4c77-b8cb-3c1b661966ea",
+        "email": "Providenci_Dare@hotmail.com",
+        "firstName": "Cornell",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/570.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ca81a889-28e1-4219-9992-26e8b7b11d9d",
+        "email": "Kelley.Ferry@gmail.com",
+        "firstName": "Ashley",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18556422",
+        "tenantId": null
+      },
+      {
+        "reference": "d75c5d74-0947-42ff-9c9b-5fb62f74cc0d",
+        "email": "Jessika.Block41@gmail.com",
+        "firstName": "Quentin",
+        "lastName": "Satterfield",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/959.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "update": [
+      {
+        "id": "49a8aa2b-cf26-418d-9f89-b06d4495812a",
+        "created_at": "2023-09-20T12:14:26.510Z",
+        "updated_at": "2023-09-20T05:20:54.796Z"
+      },
+      {
+        "id": "98f5cf0e-bf26-4b54-a9f8-4c2992806703",
+        "created_at": "2023-09-20T10:10:33.112Z",
+        "updated_at": "2023-09-20T03:12:33.918Z"
+      },
+      {
+        "id": "c189e32c-ce19-4152-8655-319fb8c19b4d",
+        "created_at": "2023-09-20T01:53:08.079Z",
+        "updated_at": "2023-09-20T15:59:47.373Z"
+      },
+      {
+        "id": "4258109f-718f-4b3f-af49-affec706ab86",
+        "created_at": "2023-09-20T14:36:34.887Z",
+        "updated_at": "2023-09-19T20:40:42.704Z"
+      },
+      {
+        "id": "61fff1d4-b778-4c80-ba85-937068cc9178",
+        "created_at": "2023-09-20T02:26:53.531Z",
+        "updated_at": "2023-09-20T08:55:42.254Z"
+      }
+    ],
+    "client": [
+      {
+        "id": "392212bf-5dd4-44d5-ae0f-ea573dbe4833",
+        "name": "ABC Company",
+        "address": "123 Main St",
+        "contact_number": "555-1234",
+        "contact_person": "John Doe",
+        "created_at": "2023-09-19T21:10:35.158Z",
+        "updated_at": "2023-09-19T20:34:49.691Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "d0a7770b-0ead-4d7b-b77c-72f51d590de3",
+        "name": "XYZ Corporation",
+        "address": "456 Elm St",
+        "contact_number": "555-5678",
+        "contact_person": "Jane Smith",
+        "created_at": "2023-09-20T02:45:35.561Z",
+        "updated_at": "2023-09-19T17:43:28.961Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "51d0f657-5f90-4bfa-97d0-5594e9c96207",
+        "name": "123 Industries",
+        "address": "789 Oak Ave",
+        "contact_number": "555-9012",
+        "contact_person": "Michael Brown",
+        "created_at": "2023-09-19T20:09:50.891Z",
+        "updated_at": "2023-09-20T02:36:56.737Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "90ddf09d-9246-4585-874d-0c69e8e38763",
+        "name": "Global Enterprises",
+        "address": "321 Maple Dr",
+        "contact_number": "555-3456",
+        "contact_person": "Sarah Jones",
+        "created_at": "2023-09-20T13:34:17.156Z",
+        "updated_at": "2023-09-19T18:23:36.995Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "43dce773-4765-4a4e-8164-c365956cfea9",
+        "name": "Best Products Inc.",
+        "address": "987 Pine Ln",
+        "contact_number": "555-7890",
+        "contact_person": "Robert Wilson",
+        "created_at": "2023-09-20T17:02:23.135Z",
+        "updated_at": "2023-09-19T18:48:18.925Z",
+        "agency_id": "main_entity_pk"
+      }
+    ],
+    "campaign": [
+      {
+        "id": "6a476db5-36ae-4afc-a1c3-d56ba8d3c8bd",
+        "name": "Summer Sale",
+        "start_date": "2023-09-20T15:13:58.956Z",
+        "end_date": "2023-09-20T14:08:27.495Z",
+        "budget": 92239,
+        "created_at": "2023-09-20T01:53:51.578Z",
+        "updated_at": "2023-09-19T19:31:04.188Z",
+        "client_id": "43dce773-4765-4a4e-8164-c365956cfea9"
+      },
+      {
+        "id": "cd7c4f48-9dcd-46f2-b640-bbaf1155abee",
+        "name": "Holiday Promotion",
+        "start_date": "2023-09-19T20:13:35.895Z",
+        "end_date": "2023-09-19T22:35:18.788Z",
+        "budget": 93216,
+        "created_at": "2023-09-20T08:57:21.052Z",
+        "updated_at": "2023-09-20T10:55:58.927Z",
+        "client_id": "90ddf09d-9246-4585-874d-0c69e8e38763"
+      },
+      {
+        "id": "8cba9937-1331-4d1e-bcb0-07c218ea5913",
+        "name": "New Product Launch",
+        "start_date": "2023-09-20T10:04:15.086Z",
+        "end_date": "2023-09-20T06:54:50.267Z",
+        "budget": 76154,
+        "created_at": "2023-09-20T01:16:12.894Z",
+        "updated_at": "2023-09-20T07:19:55.900Z",
+        "client_id": "d0a7770b-0ead-4d7b-b77c-72f51d590de3"
+      },
+      {
+        "id": "3943e573-1a33-40ba-ba0c-8201170175f7",
+        "name": "Brand Awareness Campaign",
+        "start_date": "2023-09-19T21:18:06.936Z",
+        "end_date": "2023-09-20T06:04:58.492Z",
+        "budget": 59129,
+        "created_at": "2023-09-20T03:29:34.169Z",
+        "updated_at": "2023-09-20T12:20:05.177Z",
+        "client_id": "51d0f657-5f90-4bfa-97d0-5594e9c96207"
+      },
+      {
+        "id": "bc9f18fa-906d-43c8-8916-47af7c83abc6",
+        "name": "Customer Appreciation Event",
+        "start_date": "2023-09-20T17:24:23.690Z",
+        "end_date": "2023-09-20T06:16:32.535Z",
+        "budget": 77620,
+        "created_at": "2023-09-20T02:04:31.000Z",
+        "updated_at": "2023-09-20T15:29:30.054Z",
+        "client_id": "51d0f657-5f90-4bfa-97d0-5594e9c96207"
+      }
+    ],
+    "report": [
+      {
+        "id": "3daad1d0-a94c-4516-8b78-7371e80e6a23",
+        "title": "Quarterly Performance Report",
+        "content": "This report provides an overview of the company's performance during the last quarter.",
+        "created_at": "2023-09-20T15:24:09.528Z",
+        "updated_at": "2023-09-20T02:28:48.819Z",
+        "campaign_id": "3943e573-1a33-40ba-ba0c-8201170175f7"
+      },
+      {
+        "id": "a4e0b940-815d-4eb2-b3be-2548c99205e7",
+        "title": "Marketing Campaign Analysis",
+        "content": "The analysis of the marketing campaign highlights the effectiveness of different channels.",
+        "created_at": "2023-09-19T23:50:00.808Z",
+        "updated_at": "2023-09-20T05:41:09.182Z",
+        "campaign_id": "8cba9937-1331-4d1e-bcb0-07c218ea5913"
+      },
+      {
+        "id": "576c1c0f-1dcf-43b0-a029-c7ac97cc1e95",
+        "title": "Website Traffic Analysis",
+        "content": "The website traffic analysis helps identify areas for improvement and optimization.",
+        "created_at": "2023-09-20T09:11:29.279Z",
+        "updated_at": "2023-09-20T14:58:55.221Z",
+        "campaign_id": "bc9f18fa-906d-43c8-8916-47af7c83abc6"
+      },
+      {
+        "id": "c4e8ebd4-9fb0-4ccc-a480-1a1748606ba1",
+        "title": "Social Media Engagement Report",
+        "content": "The social media engagement report showcases the brand's reach and engagement.",
+        "created_at": "2023-09-20T04:28:47.972Z",
+        "updated_at": "2023-09-19T18:15:57.470Z",
+        "campaign_id": "8cba9937-1331-4d1e-bcb0-07c218ea5913"
+      },
+      {
+        "id": "a086e075-e6d0-4b42-89c9-b706bdbe3289",
+        "title": "Email Marketing Metrics",
+        "content": "The email marketing metrics provide insights into the effectiveness of email campaigns.",
+        "created_at": "2023-09-19T22:26:20.749Z",
+        "updated_at": "2023-09-19T23:04:28.459Z",
+        "campaign_id": "6a476db5-36ae-4afc-a1c3-d56ba8d3c8bd"
+      }
+    ],
+    "data": [
+      {
+        "id": "fcea0bf5-85c9-4a83-b50a-d0e0e387ddb5",
+        "name": "Sales",
+        "value": "$1,000,000",
+        "created_at": "2023-09-20T17:15:44.352Z",
+        "updated_at": "2023-09-19T19:04:34.441Z",
+        "report_id": "c4e8ebd4-9fb0-4ccc-a480-1a1748606ba1"
+      },
+      {
+        "id": "71be8dcb-b9b3-4e13-9e99-a73be88f9c17",
+        "name": "Website Traffic",
+        "value": "10,000 visits",
+        "created_at": "2023-09-20T02:13:23.481Z",
+        "updated_at": "2023-09-20T15:58:17.010Z",
+        "report_id": "3daad1d0-a94c-4516-8b78-7371e80e6a23"
+      },
+      {
+        "id": "6c647337-6b2f-421a-941d-8c95e6d17665",
+        "name": "Conversion Rate",
+        "value": "3.5%",
+        "created_at": "2023-09-20T04:07:35.577Z",
+        "updated_at": "2023-09-19T22:45:25.204Z",
+        "report_id": "576c1c0f-1dcf-43b0-a029-c7ac97cc1e95"
+      },
+      {
+        "id": "6505a7e2-69aa-4e4c-8c2f-dc06e1dc1980",
+        "name": "Customer Satisfaction",
+        "value": "4.7/5",
+        "created_at": "2023-09-19T22:22:13.755Z",
+        "updated_at": "2023-09-20T12:29:50.060Z",
+        "report_id": "3daad1d0-a94c-4516-8b78-7371e80e6a23"
+      },
+      {
+        "id": "cf560094-74e8-40ae-bdbc-2bfa750d8a27",
+        "name": "Social Media Followers",
+        "value": "50,000 followers",
+        "created_at": "2023-09-20T08:10:27.947Z",
+        "updated_at": "2023-09-20T01:33:07.208Z",
+        "report_id": "3daad1d0-a94c-4516-8b78-7371e80e6a23"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "15301b14-fdbd-44c7-9056-a7024d496d52",
+        "email": "Jermaine38@hotmail.com",
+        "firstName": "Timothy",
+        "lastName": "Torp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1003.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b4512e9a-1fed-477c-b8b9-c2afd69088dc",
+        "email": "Jaclyn_Prosacco@gmail.com",
+        "firstName": "Michael",
+        "lastName": "Monahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55198302",
+        "tenantId": null
+      },
+      {
+        "reference": "f3da49c1-1fd6-49de-a117-7e9607b7e227",
+        "email": "Augusta83@hotmail.com",
+        "firstName": "Willow",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70202100",
+        "tenantId": null
+      },
+      {
+        "reference": "54e69078-7212-4e78-b531-705ab66e11b6",
+        "email": "Filomena.Farrell@yahoo.com",
+        "firstName": "Mattie",
+        "lastName": "Lynch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1144.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "228d4300-3905-49f3-a7e9-071171aa6937",
+        "email": "Dereck.Ernser@hotmail.com",
+        "firstName": "Emelie",
+        "lastName": "Miller-Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/477.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "update": [
+      {
+        "id": "592015df-eeaf-450a-ad03-a8c1eac67bf6",
+        "created_at": "2023-09-19T18:12:27.982Z",
+        "updated_at": "2023-09-20T13:09:37.737Z"
+      },
+      {
+        "id": "17eb5f8d-fdbf-459c-98c2-7fa8ae51cf61",
+        "created_at": "2023-09-20T05:27:24.840Z",
+        "updated_at": "2023-09-20T06:19:45.198Z"
+      },
+      {
+        "id": "0dfaa61f-6fd4-443b-bc9f-2b668e5fd254",
+        "created_at": "2023-09-20T00:33:13.966Z",
+        "updated_at": "2023-09-20T15:42:59.808Z"
+      },
+      {
+        "id": "1a1f4c9e-1ad0-4960-b9b4-fb602943a40f",
+        "created_at": "2023-09-20T15:42:19.764Z",
+        "updated_at": "2023-09-20T02:28:43.116Z"
+      },
+      {
+        "id": "6da7d28e-c731-4c21-b9cd-cff6ce23decc",
+        "created_at": "2023-09-20T10:13:47.773Z",
+        "updated_at": "2023-09-20T03:26:46.967Z"
+      }
+    ],
+    "client": [
+      {
+        "id": "45e02b3c-cb2b-496f-9ff4-8aac582b3654",
+        "name": "ABC Company",
+        "address": "123 Main St",
+        "contact_number": "123-456-7890",
+        "contact_person": "John Doe",
+        "created_at": "2023-09-20T01:08:16.341Z",
+        "updated_at": "2023-09-19T17:59:02.514Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "4d88915c-fc6f-43a4-b66e-da6f7f016616",
+        "name": "XYZ Corporation",
+        "address": "456 Elm St",
+        "contact_number": "555-123-4567",
+        "contact_person": "Jane Smith",
+        "created_at": "2023-09-20T15:17:08.679Z",
+        "updated_at": "2023-09-20T03:03:58.313Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "9d25cb8d-7839-4ff1-976f-803f4f5dbf25",
+        "name": "123 Industries",
+        "address": "789 Oak Ave",
+        "contact_number": "999-888-7777",
+        "contact_person": "Michael Brown",
+        "created_at": "2023-09-20T16:55:41.193Z",
+        "updated_at": "2023-09-20T09:21:24.002Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "f04cddc1-bf5a-4223-b3c1-65c2bd347757",
+        "name": "Acme Co.",
+        "address": "321 Maple Dr",
+        "contact_number": "111-222-3333",
+        "contact_person": "Sarah Jones",
+        "created_at": "2023-09-20T07:29:16.540Z",
+        "updated_at": "2023-09-20T14:21:04.515Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "ab5fdd24-4d62-4bc9-a83c-7adb6d241b00",
+        "name": "Global Enterprises",
+        "address": "987 Pine Rd",
+        "contact_number": "444-555-6666",
+        "contact_person": "Robert Wilson",
+        "created_at": "2023-09-20T11:07:14.457Z",
+        "updated_at": "2023-09-19T19:20:46.198Z",
+        "agency_id": "main_entity_pk"
+      }
+    ],
+    "campaign": [
+      {
+        "id": "134f0682-0879-49a5-9286-5624fe83d50b",
+        "name": "Summer Sale",
+        "start_date": "2023-09-20T00:57:35.156Z",
+        "end_date": "2023-09-20T05:07:53.361Z",
+        "budget": 53486,
+        "created_at": "2023-09-20T13:02:36.232Z",
+        "updated_at": "2023-09-20T03:24:08.198Z",
+        "client_id": "f04cddc1-bf5a-4223-b3c1-65c2bd347757"
+      },
+      {
+        "id": "77d7f565-e386-4659-aec1-d6bd0535dad7",
+        "name": "Holiday Promotion",
+        "start_date": "2023-09-20T12:05:21.378Z",
+        "end_date": "2023-09-20T04:22:52.229Z",
+        "budget": 79100,
+        "created_at": "2023-09-19T20:35:04.086Z",
+        "updated_at": "2023-09-20T11:26:13.927Z",
+        "client_id": "9d25cb8d-7839-4ff1-976f-803f4f5dbf25"
+      },
+      {
+        "id": "82209dc4-8163-4a76-9040-ef6569a7d31a",
+        "name": "Back to School",
+        "start_date": "2023-09-20T15:54:36.050Z",
+        "end_date": "2023-09-19T21:44:55.552Z",
+        "budget": 17781,
+        "created_at": "2023-09-19T18:04:57.086Z",
+        "updated_at": "2023-09-20T11:59:44.342Z",
+        "client_id": "ab5fdd24-4d62-4bc9-a83c-7adb6d241b00"
+      },
+      {
+        "id": "c602ca1f-3e02-413a-b333-21851131a42e",
+        "name": "New Product Launch",
+        "start_date": "2023-09-20T08:47:45.779Z",
+        "end_date": "2023-09-20T13:24:40.234Z",
+        "budget": 46044,
+        "created_at": "2023-09-20T02:37:54.376Z",
+        "updated_at": "2023-09-20T14:00:09.195Z",
+        "client_id": "4d88915c-fc6f-43a4-b66e-da6f7f016616"
+      },
+      {
+        "id": "2273b2c9-b167-43e8-b6e0-1d4ffaadf74b",
+        "name": "Customer Appreciation",
+        "start_date": "2023-09-20T02:38:34.451Z",
+        "end_date": "2023-09-19T21:27:11.328Z",
+        "budget": 26449,
+        "created_at": "2023-09-20T09:09:10.507Z",
+        "updated_at": "2023-09-20T10:01:57.076Z",
+        "client_id": "45e02b3c-cb2b-496f-9ff4-8aac582b3654"
+      }
+    ],
+    "report": [
+      {
+        "id": "babc9aa1-102c-4571-b3c6-03938c5184d0",
+        "title": "Quarterly Report",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "created_at": "2023-09-20T10:30:47.917Z",
+        "updated_at": "2023-09-19T19:16:00.921Z",
+        "campaign_id": "77d7f565-e386-4659-aec1-d6bd0535dad7"
+      },
+      {
+        "id": "9b955611-de97-4aed-8d1f-54a05442d264",
+        "title": "Marketing Analysis",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+        "created_at": "2023-09-19T19:17:54.547Z",
+        "updated_at": "2023-09-20T12:17:20.565Z",
+        "campaign_id": "c602ca1f-3e02-413a-b333-21851131a42e"
+      },
+      {
+        "id": "fe419976-35fa-400e-aae6-9d566c1d3529",
+        "title": "Campaign Performance",
+        "content": "At vero eos et accusamus et iusto odio dignissimos ducimus.",
+        "created_at": "2023-09-19T23:54:08.743Z",
+        "updated_at": "2023-09-20T13:43:59.716Z",
+        "campaign_id": "2273b2c9-b167-43e8-b6e0-1d4ffaadf74b"
+      },
+      {
+        "id": "df683503-a9b4-42fe-bf1e-a962889841c2",
+        "title": "Sales Metrics",
+        "content": "Eaque ipsa quae ab illo inventore veritatis et quasi architecto.",
+        "created_at": "2023-09-19T21:24:37.582Z",
+        "updated_at": "2023-09-19T18:34:59.970Z",
+        "campaign_id": "c602ca1f-3e02-413a-b333-21851131a42e"
+      },
+      {
+        "id": "09f1f3b0-dfca-4cf4-ad6d-0f438a683986",
+        "title": "Website Traffic",
+        "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "created_at": "2023-09-20T05:15:38.410Z",
+        "updated_at": "2023-09-20T03:19:06.002Z",
+        "campaign_id": "c602ca1f-3e02-413a-b333-21851131a42e"
+      }
+    ],
+    "data": [
+      {
+        "id": "215dac80-c465-48e3-90eb-4cf41e5f1f8e",
+        "name": "Data 1",
+        "value": "Value 1",
+        "created_at": "2023-09-20T14:12:41.635Z",
+        "updated_at": "2023-09-20T14:55:15.518Z",
+        "report_id": "9b955611-de97-4aed-8d1f-54a05442d264"
+      },
+      {
+        "id": "4fe7e4c9-a6c7-4414-847f-6263ef5ad9ec",
+        "name": "Data 2",
+        "value": "Value 2",
+        "created_at": "2023-09-19T19:37:51.097Z",
+        "updated_at": "2023-09-19T17:31:27.776Z",
+        "report_id": "9b955611-de97-4aed-8d1f-54a05442d264"
+      },
+      {
+        "id": "538571ed-6e5e-4a94-a344-3f019833ad28",
+        "name": "Data 3",
+        "value": "Value 3",
+        "created_at": "2023-09-20T06:16:58.711Z",
+        "updated_at": "2023-09-19T18:27:29.138Z",
+        "report_id": "9b955611-de97-4aed-8d1f-54a05442d264"
+      },
+      {
+        "id": "f48111a8-634c-495e-b34f-e83f3095c5cf",
+        "name": "Data 4",
+        "value": "Value 4",
+        "created_at": "2023-09-20T14:48:15.695Z",
+        "updated_at": "2023-09-20T01:20:52.256Z",
+        "report_id": "fe419976-35fa-400e-aae6-9d566c1d3529"
+      },
+      {
+        "id": "6baf59a6-20a1-4277-8513-f31573ac2110",
+        "name": "Data 5",
+        "value": "Value 5",
+        "created_at": "2023-09-19T19:48:44.149Z",
+        "updated_at": "2023-09-20T02:26:10.672Z",
+        "report_id": "df683503-a9b4-42fe-bf1e-a962889841c2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0ec411b7-dc11-41a3-ae2f-e42ce03d4f66",
+        "email": "Melvin_Fay97@gmail.com",
+        "firstName": "Tressie",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/745.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "089920c1-68b5-4a82-a30a-b13ddb04cb17",
+        "email": "Andrew55@yahoo.com",
+        "firstName": "Josue",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/356.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "35dd4413-54ad-4165-b967-f3a1fc131602",
+        "email": "Dewitt.Glover53@hotmail.com",
+        "firstName": "Linda",
+        "lastName": "Lakin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22260698",
+        "tenantId": null
+      },
+      {
+        "reference": "199d5bba-a1af-43c7-9cd3-96c1bfc988cc",
+        "email": "Brendon_Robel@gmail.com",
+        "firstName": "Ceasar",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88187846",
+        "tenantId": null
+      },
+      {
+        "reference": "3c845724-1a3e-47b0-9419-8cd6f95f257b",
+        "email": "Peggie.Bins@hotmail.com",
+        "firstName": "Keegan",
+        "lastName": "O'Reilly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/318.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "update": [
+      {
+        "id": "c536fcb0-f38e-4762-8e78-4e5e24e03427",
+        "created_at": "2023-09-19T23:10:34.249Z",
+        "updated_at": "2023-09-20T05:40:11.832Z"
+      },
+      {
+        "id": "db0b88dc-2f06-4f84-80ee-bf935d2fcbe6",
+        "created_at": "2023-09-19T20:57:24.742Z",
+        "updated_at": "2023-09-20T03:02:45.888Z"
+      },
+      {
+        "id": "c4ae8f93-e1d7-48b2-9188-4da91eaeceba",
+        "created_at": "2023-09-19T22:47:17.089Z",
+        "updated_at": "2023-09-20T02:51:41.620Z"
+      },
+      {
+        "id": "6cd7b16c-07ee-4875-b609-fe05f4670785",
+        "created_at": "2023-09-19T20:26:45.949Z",
+        "updated_at": "2023-09-19T22:11:29.841Z"
+      },
+      {
+        "id": "6079a7d0-063b-42ee-a1ec-cded4b6357df",
+        "created_at": "2023-09-20T05:15:33.509Z",
+        "updated_at": "2023-09-20T05:23:22.674Z"
+      }
+    ],
+    "client": [
+      {
+        "id": "ea0ce4a4-84ac-4ef6-945b-0a0b180fe144",
+        "name": "Client A",
+        "address": "123 Main St",
+        "contact_number": "123-456-7890",
+        "contact_person": "John Doe",
+        "created_at": "2023-09-20T16:17:15.228Z",
+        "updated_at": "2023-09-20T01:03:37.813Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "19e97fe3-69e1-40a7-8c56-aaa7241fa2a4",
+        "name": "Client B",
+        "address": "456 Elm St",
+        "contact_number": "987-654-3210",
+        "contact_person": "Jane Smith",
+        "created_at": "2023-09-20T12:15:30.254Z",
+        "updated_at": "2023-09-19T23:21:17.867Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "83cbb8a2-a0b2-4fc1-b92e-ab45e3ca7f45",
+        "name": "Client C",
+        "address": "789 Oak St",
+        "contact_number": "456-789-1230",
+        "contact_person": "Michael Brown",
+        "created_at": "2023-09-20T03:33:50.580Z",
+        "updated_at": "2023-09-20T05:06:42.391Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "7500b673-b8ba-4650-9afa-de54ece69e5f",
+        "name": "Client D",
+        "address": "321 Pine St",
+        "contact_number": "321-654-9870",
+        "contact_person": "Sarah Jones",
+        "created_at": "2023-09-19T20:00:26.224Z",
+        "updated_at": "2023-09-20T07:09:34.998Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "bbc7d2b1-5c01-47a8-8fcd-75fa750ccdd8",
+        "name": "Client E",
+        "address": "654 Maple St",
+        "contact_number": "789-123-4560",
+        "contact_person": "Robert Wilson",
+        "created_at": "2023-09-20T06:56:00.266Z",
+        "updated_at": "2023-09-20T11:29:51.281Z",
+        "agency_id": "main_entity_pk"
+      }
+    ],
+    "campaign": [
+      {
+        "id": "761311c0-5009-4b33-835f-184068451fd9",
+        "name": "Campaign A",
+        "start_date": "2023-09-20T13:44:44.653Z",
+        "end_date": "2023-09-19T20:19:36.093Z",
+        "budget": 43864,
+        "created_at": "2023-09-19T20:11:52.319Z",
+        "updated_at": "2023-09-19T22:52:28.700Z",
+        "client_id": "bbc7d2b1-5c01-47a8-8fcd-75fa750ccdd8"
+      },
+      {
+        "id": "34a25819-8220-42b6-92e0-7c983e52d8da",
+        "name": "Campaign B",
+        "start_date": "2023-09-19T19:45:33.396Z",
+        "end_date": "2023-09-20T16:00:19.598Z",
+        "budget": 83613,
+        "created_at": "2023-09-20T12:29:59.126Z",
+        "updated_at": "2023-09-20T11:45:47.924Z",
+        "client_id": "19e97fe3-69e1-40a7-8c56-aaa7241fa2a4"
+      },
+      {
+        "id": "e71e0f48-5b3f-46c1-a517-159af92870be",
+        "name": "Campaign C",
+        "start_date": "2023-09-19T23:48:20.330Z",
+        "end_date": "2023-09-20T09:32:59.879Z",
+        "budget": 12404,
+        "created_at": "2023-09-19T22:16:21.733Z",
+        "updated_at": "2023-09-20T00:43:11.872Z",
+        "client_id": "7500b673-b8ba-4650-9afa-de54ece69e5f"
+      },
+      {
+        "id": "59b8f9a9-50e4-43a8-938c-b79889eb4f4b",
+        "name": "Campaign D",
+        "start_date": "2023-09-20T09:51:09.419Z",
+        "end_date": "2023-09-19T18:52:26.502Z",
+        "budget": 31484,
+        "created_at": "2023-09-20T06:58:24.396Z",
+        "updated_at": "2023-09-20T07:12:48.057Z",
+        "client_id": "bbc7d2b1-5c01-47a8-8fcd-75fa750ccdd8"
+      },
+      {
+        "id": "a5e0f5ed-f847-4dfd-a5af-f53afba0c07d",
+        "name": "Campaign E",
+        "start_date": "2023-09-20T14:11:20.602Z",
+        "end_date": "2023-09-20T13:38:47.224Z",
+        "budget": 65098,
+        "created_at": "2023-09-20T04:04:20.430Z",
+        "updated_at": "2023-09-20T07:42:42.427Z",
+        "client_id": "7500b673-b8ba-4650-9afa-de54ece69e5f"
+      }
+    ],
+    "report": [
+      {
+        "id": "bb4c393f-63d4-4318-9d6f-9e5b7f7fa076",
+        "title": "Report A",
+        "content": "Lorem ipsum dolor sit amet",
+        "created_at": "2023-09-20T11:43:33.349Z",
+        "updated_at": "2023-09-20T17:13:08.182Z",
+        "campaign_id": "34a25819-8220-42b6-92e0-7c983e52d8da"
+      },
+      {
+        "id": "7abfb67f-a4c5-409d-96c2-79eaaee0ee15",
+        "title": "Report B",
+        "content": "Consectetur adipiscing elit",
+        "created_at": "2023-09-19T19:35:48.614Z",
+        "updated_at": "2023-09-20T12:31:09.662Z",
+        "campaign_id": "34a25819-8220-42b6-92e0-7c983e52d8da"
+      },
+      {
+        "id": "1918c32d-53f3-4a62-898a-808a2440d7a7",
+        "title": "Report C",
+        "content": "Sed do eiusmod tempor incididunt",
+        "created_at": "2023-09-20T12:48:02.900Z",
+        "updated_at": "2023-09-20T08:38:29.079Z",
+        "campaign_id": "e71e0f48-5b3f-46c1-a517-159af92870be"
+      },
+      {
+        "id": "215d6413-8439-43ca-b03a-71b6b3b77059",
+        "title": "Report D",
+        "content": "Ut labore et dolore magna aliqua",
+        "created_at": "2023-09-20T13:05:22.280Z",
+        "updated_at": "2023-09-20T14:24:12.752Z",
+        "campaign_id": "59b8f9a9-50e4-43a8-938c-b79889eb4f4b"
+      },
+      {
+        "id": "4137b8dd-f47b-4e2f-98b4-2f76777d8339",
+        "title": "Report E",
+        "content": "Ut enim ad minim veniam",
+        "created_at": "2023-09-20T14:39:39.859Z",
+        "updated_at": "2023-09-20T17:20:41.188Z",
+        "campaign_id": "761311c0-5009-4b33-835f-184068451fd9"
+      }
+    ],
+    "data": [
+      {
+        "id": "4a16474f-5b6b-44be-9b3c-54ba922fd515",
+        "name": "Data A",
+        "value": "Value 1",
+        "created_at": "2023-09-20T15:21:53.013Z",
+        "updated_at": "2023-09-20T04:42:42.607Z",
+        "report_id": "bb4c393f-63d4-4318-9d6f-9e5b7f7fa076"
+      },
+      {
+        "id": "81a2aea0-a6a4-444a-936c-23c729e27295",
+        "name": "Data B",
+        "value": "Value 2",
+        "created_at": "2023-09-19T20:10:23.742Z",
+        "updated_at": "2023-09-20T16:59:47.948Z",
+        "report_id": "bb4c393f-63d4-4318-9d6f-9e5b7f7fa076"
+      },
+      {
+        "id": "4bef616c-2bfd-455a-b38c-cf5bc1f07db2",
+        "name": "Data C",
+        "value": "Value 3",
+        "created_at": "2023-09-20T15:44:30.824Z",
+        "updated_at": "2023-09-20T14:43:14.627Z",
+        "report_id": "7abfb67f-a4c5-409d-96c2-79eaaee0ee15"
+      },
+      {
+        "id": "35328eb3-298e-4c71-83ec-257d5784f747",
+        "name": "Data D",
+        "value": "Value 4",
+        "created_at": "2023-09-20T14:48:43.362Z",
+        "updated_at": "2023-09-19T23:32:15.537Z",
+        "report_id": "7abfb67f-a4c5-409d-96c2-79eaaee0ee15"
+      },
+      {
+        "id": "3e4b3623-7357-4bb4-9aa5-33255885d7cc",
+        "name": "Data E",
+        "value": "Value 5",
+        "created_at": "2023-09-20T00:32:24.692Z",
+        "updated_at": "2023-09-20T02:23:51.082Z",
+        "report_id": "7abfb67f-a4c5-409d-96c2-79eaaee0ee15"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "148f8949-0f4a-47a4-a1ab-4a53f89768f5",
+        "email": "Kaitlin.Grady52@hotmail.com",
+        "firstName": "Trudie",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/576.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "62241c62-2621-4d9f-aad3-5e722907de10",
+        "email": "Lee_Hammes@gmail.com",
+        "firstName": "Donald",
+        "lastName": "Ratke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/493.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "50981bb8-d1b6-4f4b-b3f2-1c7c50232713",
+        "email": "Savanna.Prohaska30@yahoo.com",
+        "firstName": "Brandi",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/401.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f2afedf2-1547-4a6a-a7b6-8d27d671bc8f",
+        "email": "Juanita31@yahoo.com",
+        "firstName": "Filiberto",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/7.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "da07d135-ccee-437b-b4b0-1e7c3de66a94",
+        "email": "Merritt78@gmail.com",
+        "firstName": "Dustin",
+        "lastName": "Nikolaus-Steuber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58409215",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "update": [
+      {
+        "id": "ff197a80-81fe-4a40-adf5-fe825b119480",
+        "created_at": "2023-09-20T17:19:53.837Z",
+        "updated_at": "2023-09-20T06:37:17.075Z"
+      },
+      {
+        "id": "c7136e52-99e9-42fe-9821-a9e52817777a",
+        "created_at": "2023-09-20T05:43:55.321Z",
+        "updated_at": "2023-09-19T22:11:04.135Z"
+      },
+      {
+        "id": "ca025ded-d157-4ba1-805c-3e693cc74b3a",
+        "created_at": "2023-09-20T01:49:31.491Z",
+        "updated_at": "2023-09-20T15:47:16.652Z"
+      },
+      {
+        "id": "d1c9f349-fec6-465e-bb4c-4b2d861e777f",
+        "created_at": "2023-09-19T18:54:12.664Z",
+        "updated_at": "2023-09-20T14:20:07.571Z"
+      },
+      {
+        "id": "a64e33f0-ea6a-4e38-ad8f-0a453f293078",
+        "created_at": "2023-09-20T01:37:39.275Z",
+        "updated_at": "2023-09-20T16:37:16.840Z"
+      }
+    ],
+    "client": [
+      {
+        "id": "f1cdd5bf-267e-4981-80f1-69c242e76600",
+        "name": "Acme Corporation",
+        "address": "123 Main St",
+        "contact_number": "555-1234",
+        "contact_person": "John Doe",
+        "created_at": "2023-09-19T20:59:18.880Z",
+        "updated_at": "2023-09-19T19:46:12.101Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "1e5a6169-a1d3-4965-9209-978bebf1424b",
+        "name": "Global Industries",
+        "address": "456 Park Ave",
+        "contact_number": "555-5678",
+        "contact_person": "Jane Smith",
+        "created_at": "2023-09-20T06:53:58.946Z",
+        "updated_at": "2023-09-19T20:34:30.198Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "7d02b66d-bad8-4a56-b60f-c49b95fca81e",
+        "name": "Tech Solutions",
+        "address": "789 Elm Rd",
+        "contact_number": "555-9012",
+        "contact_person": "Michael Brown",
+        "created_at": "2023-09-19T23:59:10.665Z",
+        "updated_at": "2023-09-20T07:02:25.125Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "d89a400d-ad6a-4f66-a035-4be96c8da3e9",
+        "name": "Innovative Startups",
+        "address": "1010 Oak Ln",
+        "contact_number": "555-3456",
+        "contact_person": "Sarah Jones",
+        "created_at": "2023-09-20T02:55:06.846Z",
+        "updated_at": "2023-09-20T16:28:49.609Z",
+        "agency_id": "main_entity_pk"
+      },
+      {
+        "id": "a2b2cc40-99a6-4022-9298-61c0ad20d22c",
+        "name": "Creative Ventures",
+        "address": "1313 Pine Blvd",
+        "contact_number": "555-7890",
+        "contact_person": "David Wilson",
+        "created_at": "2023-09-20T08:17:28.140Z",
+        "updated_at": "2023-09-19T22:27:00.691Z",
+        "agency_id": "main_entity_pk"
+      }
+    ],
+    "campaign": [
+      {
+        "id": "3e4e3b72-1c43-4945-a1d9-6614ad623265",
+        "name": "Summer Sale",
+        "start_date": "2023-09-19T22:38:33.970Z",
+        "end_date": "2023-09-19T21:56:14.462Z",
+        "budget": 59978,
+        "created_at": "2023-09-19T23:02:39.592Z",
+        "updated_at": "2023-09-20T16:08:02.393Z",
+        "client_id": "f1cdd5bf-267e-4981-80f1-69c242e76600"
+      },
+      {
+        "id": "09ca1379-ff0e-439c-9ea3-c67db73f2363",
+        "name": "Holiday Promotion",
+        "start_date": "2023-09-20T09:43:29.486Z",
+        "end_date": "2023-09-19T18:27:28.406Z",
+        "budget": 94937,
+        "created_at": "2023-09-20T09:21:29.964Z",
+        "updated_at": "2023-09-20T10:26:56.904Z",
+        "client_id": "d89a400d-ad6a-4f66-a035-4be96c8da3e9"
+      },
+      {
+        "id": "dbcbe12b-3c2f-4cc5-9b71-593ef8e93f96",
+        "name": "New Product Launch",
+        "start_date": "2023-09-20T04:29:15.580Z",
+        "end_date": "2023-09-20T04:40:35.505Z",
+        "budget": 50065,
+        "created_at": "2023-09-19T21:29:22.063Z",
+        "updated_at": "2023-09-20T01:38:40.508Z",
+        "client_id": "7d02b66d-bad8-4a56-b60f-c49b95fca81e"
+      },
+      {
+        "id": "d5c31fae-bb8f-4e2a-b20a-1802530a66ac",
+        "name": "Brand Awareness",
+        "start_date": "2023-09-20T11:26:43.097Z",
+        "end_date": "2023-09-20T08:59:52.207Z",
+        "budget": 23129,
+        "created_at": "2023-09-20T15:37:09.028Z",
+        "updated_at": "2023-09-20T09:20:28.563Z",
+        "client_id": "d89a400d-ad6a-4f66-a035-4be96c8da3e9"
+      },
+      {
+        "id": "e3040275-da4a-4917-a1fd-c2e28259aeda",
+        "name": "Customer Appreciation",
+        "start_date": "2023-09-20T01:43:02.457Z",
+        "end_date": "2023-09-20T16:58:19.340Z",
+        "budget": 47187,
+        "created_at": "2023-09-19T22:17:04.241Z",
+        "updated_at": "2023-09-20T15:12:28.819Z",
+        "client_id": "a2b2cc40-99a6-4022-9298-61c0ad20d22c"
+      }
+    ],
+    "report": [
+      {
+        "id": "1b901be7-e77e-49c3-a1df-b60dd972100d",
+        "title": "Monthly Sales Report",
+        "content": "This report provides an overview of the sales performance for the month of January.",
+        "created_at": "2023-09-20T03:14:53.136Z",
+        "updated_at": "2023-09-20T15:58:41.752Z",
+        "campaign_id": "dbcbe12b-3c2f-4cc5-9b71-593ef8e93f96"
+      },
+      {
+        "id": "d2e7c43c-11af-4012-8194-6252adfc6ddb",
+        "title": "Marketing Campaign Analysis",
+        "content": "The analysis includes the effectiveness of different marketing campaigns.",
+        "created_at": "2023-09-20T11:48:54.812Z",
+        "updated_at": "2023-09-20T02:13:15.300Z",
+        "campaign_id": "d5c31fae-bb8f-4e2a-b20a-1802530a66ac"
+      },
+      {
+        "id": "ef9af401-18dd-4895-be0a-89aad2687bed",
+        "title": "Website Traffic Report",
+        "content": "The report shows the website traffic trends and sources of traffic.",
+        "created_at": "2023-09-19T18:10:37.872Z",
+        "updated_at": "2023-09-20T02:39:45.477Z",
+        "campaign_id": "dbcbe12b-3c2f-4cc5-9b71-593ef8e93f96"
+      },
+      {
+        "id": "05c7ff8c-df79-4b21-8b10-a74a250d7084",
+        "title": "Social Media Engagement",
+        "content": "This report measures the engagement levels on various social media platforms.",
+        "created_at": "2023-09-19T20:16:04.502Z",
+        "updated_at": "2023-09-20T07:24:19.586Z",
+        "campaign_id": "09ca1379-ff0e-439c-9ea3-c67db73f2363"
+      },
+      {
+        "id": "906e0cad-3639-4926-8ad5-c4fbd1247e7b",
+        "title": "Email Marketing Performance",
+        "content": "The performance of email marketing campaigns is analyzed in this report.",
+        "created_at": "2023-09-19T22:06:20.923Z",
+        "updated_at": "2023-09-20T13:21:53.412Z",
+        "campaign_id": "dbcbe12b-3c2f-4cc5-9b71-593ef8e93f96"
+      }
+    ],
+    "data": [
+      {
+        "id": "4143ff23-5fb3-4958-b19a-20b12b3f0083",
+        "name": "Data 1",
+        "value": "Value 1",
+        "created_at": "2023-09-20T02:10:35.641Z",
+        "updated_at": "2023-09-20T00:49:06.379Z",
+        "report_id": "05c7ff8c-df79-4b21-8b10-a74a250d7084"
+      },
+      {
+        "id": "1c827bad-06e3-452d-af6d-284a382e7659",
+        "name": "Data 2",
+        "value": "Value 2",
+        "created_at": "2023-09-20T03:44:40.355Z",
+        "updated_at": "2023-09-19T22:44:19.765Z",
+        "report_id": "05c7ff8c-df79-4b21-8b10-a74a250d7084"
+      },
+      {
+        "id": "c345f575-e000-4826-8007-23e55909c33c",
+        "name": "Data 3",
+        "value": "Value 3",
+        "created_at": "2023-09-19T21:06:23.441Z",
+        "updated_at": "2023-09-20T08:53:04.324Z",
+        "report_id": "906e0cad-3639-4926-8ad5-c4fbd1247e7b"
+      },
+      {
+        "id": "5514d4aa-d831-4acd-a457-355dab6d59eb",
+        "name": "Data 4",
+        "value": "Value 4",
+        "created_at": "2023-09-20T12:25:02.519Z",
+        "updated_at": "2023-09-19T19:29:33.147Z",
+        "report_id": "1b901be7-e77e-49c3-a1df-b60dd972100d"
+      },
+      {
+        "id": "b74c2a62-8590-45a9-95ca-fbb85868468f",
+        "name": "Data 5",
+        "value": "Value 5",
+        "created_at": "2023-09-20T01:46:34.877Z",
+        "updated_at": "2023-09-19T18:08:57.317Z",
+        "report_id": "ef9af401-18dd-4895-be0a-89aad2687bed"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "96ec9f82-aae8-472b-9113-2e14e8169af1",
+        "email": "Darrell_Kuhic96@hotmail.com",
+        "firstName": "Alexanne",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50351605",
+        "tenantId": null
+      },
+      {
+        "reference": "2b0afc08-5402-49df-9497-fc99e7198d1d",
+        "email": "Pansy_Rempel@gmail.com",
+        "firstName": "Micah",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/574.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1516b6ed-7ae0-4d6e-b406-49b359001a5a",
+        "email": "Lelah_Ward@hotmail.com",
+        "firstName": "Elmira",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/587.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b5026514-aa5a-48d1-8891-e27f8ddc9d49",
+        "email": "Hipolito98@gmail.com",
+        "firstName": "Franco",
+        "lastName": "Spencer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/43.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ee55b5bc-879e-4746-bcb9-7e33b0b8fb1b",
+        "email": "Otilia19@hotmail.com",
+        "firstName": "Tracey",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/643.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
